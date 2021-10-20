@@ -171,55 +171,6 @@
 </layers>
 <schematic xreflabel="%F%N/%S.%C%R" xrefpart="/%S.%C%R">
 <libraries>
-<library name="frames" urn="urn:adsk.eagle:library:229">
-<description>&lt;b&gt;Frames for Sheet and Layout&lt;/b&gt;</description>
-<packages>
-</packages>
-<symbols>
-<symbol name="A3L-LOC" urn="urn:adsk.eagle:symbol:13881/1" library_version="1">
-<wire x1="288.29" y1="3.81" x2="342.265" y2="3.81" width="0.1016" layer="94"/>
-<wire x1="342.265" y1="3.81" x2="373.38" y2="3.81" width="0.1016" layer="94"/>
-<wire x1="373.38" y1="3.81" x2="383.54" y2="3.81" width="0.1016" layer="94"/>
-<wire x1="383.54" y1="3.81" x2="383.54" y2="8.89" width="0.1016" layer="94"/>
-<wire x1="383.54" y1="8.89" x2="383.54" y2="13.97" width="0.1016" layer="94"/>
-<wire x1="383.54" y1="13.97" x2="383.54" y2="19.05" width="0.1016" layer="94"/>
-<wire x1="383.54" y1="19.05" x2="383.54" y2="24.13" width="0.1016" layer="94"/>
-<wire x1="288.29" y1="3.81" x2="288.29" y2="24.13" width="0.1016" layer="94"/>
-<wire x1="288.29" y1="24.13" x2="342.265" y2="24.13" width="0.1016" layer="94"/>
-<wire x1="342.265" y1="24.13" x2="383.54" y2="24.13" width="0.1016" layer="94"/>
-<wire x1="373.38" y1="3.81" x2="373.38" y2="8.89" width="0.1016" layer="94"/>
-<wire x1="373.38" y1="8.89" x2="383.54" y2="8.89" width="0.1016" layer="94"/>
-<wire x1="373.38" y1="8.89" x2="342.265" y2="8.89" width="0.1016" layer="94"/>
-<wire x1="342.265" y1="8.89" x2="342.265" y2="3.81" width="0.1016" layer="94"/>
-<wire x1="342.265" y1="8.89" x2="342.265" y2="13.97" width="0.1016" layer="94"/>
-<wire x1="342.265" y1="13.97" x2="383.54" y2="13.97" width="0.1016" layer="94"/>
-<wire x1="342.265" y1="13.97" x2="342.265" y2="19.05" width="0.1016" layer="94"/>
-<wire x1="342.265" y1="19.05" x2="383.54" y2="19.05" width="0.1016" layer="94"/>
-<wire x1="342.265" y1="19.05" x2="342.265" y2="24.13" width="0.1016" layer="94"/>
-<text x="344.17" y="15.24" size="2.54" layer="94">&gt;DRAWING_NAME</text>
-<text x="344.17" y="10.16" size="2.286" layer="94">&gt;LAST_DATE_TIME</text>
-<text x="357.505" y="5.08" size="2.54" layer="94">&gt;SHEET</text>
-<text x="343.916" y="4.953" size="2.54" layer="94">Sheet:</text>
-<frame x1="0" y1="0" x2="387.35" y2="260.35" columns="8" rows="5" layer="94"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="A3L-LOC" urn="urn:adsk.eagle:component:13942/1" prefix="FRAME" uservalue="yes" library_version="1">
-<description>&lt;b&gt;FRAME&lt;/b&gt;&lt;p&gt;
-DIN A3, landscape with location and doc. field</description>
-<gates>
-<gate name="G$1" symbol="A3L-LOC" x="0" y="0"/>
-</gates>
-<devices>
-<device name="">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="CRCW04021K00FKED">
 <packages>
 <package name="RES_CRCW_0402" urn="urn:adsk.eagle:footprint:1/1">
@@ -1455,6 +1406,13 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pin name="12V" x="0" y="0" visible="off" length="short" direction="sup" rot="R90"/>
 <text x="0" y="2.794" size="1.778" layer="96" align="bottom-center">&gt;VALUE</text>
 </symbol>
+<symbol name="3.3V" urn="urn:adsk.eagle:symbol:39411/1" library_version="1">
+<description>&lt;h3&gt;3.3V Voltage Supply&lt;/h3&gt;</description>
+<wire x1="0.762" y1="1.27" x2="0" y2="2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="2.54" x2="-0.762" y2="1.27" width="0.254" layer="94"/>
+<pin name="3.3V" x="0" y="0" visible="off" length="short" direction="sup" rot="R90"/>
+<text x="0" y="2.794" size="1.778" layer="96" align="bottom-center">&gt;VALUE</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="5V" urn="urn:adsk.eagle:component:39433/1" prefix="SUPPLY" library_version="1">
@@ -1476,6 +1434,20 @@ You are welcome to use this library for commercial purposes. For attribution, we
 &lt;p&gt;Power supply symbol for a specifically-stated 12V source.&lt;/p&gt;</description>
 <gates>
 <gate name="G$1" symbol="12V" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="3.3V" urn="urn:adsk.eagle:component:39435/1" prefix="SUPPLY" library_version="1">
+<description>&lt;h3&gt;3.3V Supply Symbol&lt;/h3&gt;
+&lt;p&gt;Power supply symbol for a specifically-stated 3.3V source.&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="3.3V" x="0" y="0"/>
 </gates>
 <devices>
 <device name="">
@@ -1813,6 +1785,230 @@ Out: 5.2V 3A</text>
 </deviceset>
 </devicesets>
 </library>
+<library name="AZ1117C-3.3">
+<packages>
+<package name="SOT150P410X160-3N">
+<wire x1="2.235" y1="-1.245" x2="-2.235" y2="-1.245" width="0.1524" layer="51"/>
+<wire x1="-2.235" y1="1.219" x2="2.235" y2="1.219" width="0.1524" layer="51"/>
+<wire x1="-0.7874" y1="1.5748" x2="-0.3556" y2="2.0066" width="0.2032" layer="51"/>
+<wire x1="-0.3556" y1="2.0066" x2="0.3556" y2="2.0066" width="0.2032" layer="51"/>
+<wire x1="0.3556" y1="2.0066" x2="0.7874" y2="1.5748" width="0.2032" layer="51"/>
+<wire x1="0.7874" y1="1.5748" x2="0.7874" y2="1.2954" width="0.2032" layer="51"/>
+<wire x1="0.7874" y1="1.2954" x2="-0.7874" y2="1.2954" width="0.2032" layer="51"/>
+<wire x1="-0.7874" y1="1.2954" x2="-0.7874" y2="1.5748" width="0.2032" layer="51"/>
+<text x="-7.671959375" y="4.202740625" size="3.2051" layer="25">&gt;NAME</text>
+<text x="-8.144790625" y="-8.0513" size="3.278490625" layer="27">&gt;VALUE</text>
+<polygon width="0.1998" layer="51">
+<vertex x="-0.7874" y="1.3208"/>
+<vertex x="-0.7874" y="1.5748"/>
+<vertex x="-0.3556" y="2.0066"/>
+<vertex x="0.3048" y="2.0066"/>
+<vertex x="0.3556" y="2.0066"/>
+<vertex x="0.7874" y="1.5748"/>
+<vertex x="0.7874" y="1.2954"/>
+<vertex x="-0.7874" y="1.2954"/>
+</polygon>
+<wire x1="-2.75" y1="3" x2="2.75" y2="3" width="0.127" layer="39"/>
+<wire x1="2.75" y1="3" x2="2.75" y2="-3" width="0.127" layer="39"/>
+<wire x1="2.75" y1="-3" x2="-2.75" y2="-3" width="0.127" layer="39"/>
+<wire x1="-2.75" y1="-3" x2="-2.75" y2="3" width="0.127" layer="39"/>
+<circle x="-2.25" y="-2.5" radius="0.127" width="0" layer="21"/>
+<smd name="1" x="-1.499" y="-1.981" dx="0.8" dy="1.4" layer="1"/>
+<smd name="3" x="1.499" y="-1.981" dx="0.8" dy="1.4" layer="1"/>
+<smd name="2" x="0" y="-1.727" dx="0.8" dy="1.9" layer="1"/>
+<smd name="4" x="0" y="0.889" dx="2" dy="3.5" layer="1" roundness="75" cream="no"/>
+</package>
+</packages>
+<symbols>
+<symbol name="SOT150P410X160-3N">
+<wire x1="-10.668" y1="6.858" x2="12.192" y2="6.858" width="0.1524" layer="94"/>
+<wire x1="12.192" y1="6.858" x2="12.192" y2="-8.382" width="0.1524" layer="94"/>
+<wire x1="12.192" y1="-8.382" x2="-10.668" y2="-8.382" width="0.1524" layer="94"/>
+<wire x1="-10.668" y1="-8.382" x2="-10.668" y2="6.858" width="0.1524" layer="94"/>
+<pin name="OUTPUT" x="17.272" y="0.254" visible="off" length="middle" rot="R180"/>
+<pin name="INPUT" x="-15.748" y="0.254" visible="off" length="middle"/>
+<pin name="GND" x="0.762" y="-13.462" visible="off" length="middle" rot="R90"/>
+<text x="-2.032" y="-7.62" size="1.778" layer="95">GND</text>
+<text x="1.524" y="-0.508" size="1.778" layer="95">OUTPUT</text>
+<text x="-9.906" y="-0.508" size="1.778" layer="97">INPUT</text>
+<text x="-6.35" y="4.572" size="1.778" layer="95">AZ1117C-3.3</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="SOT150P410X160-3N">
+<gates>
+<gate name="G$1" symbol="SOT150P410X160-3N" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT150P410X160-3N">
+<connects>
+<connect gate="G$1" pin="GND" pad="1"/>
+<connect gate="G$1" pin="INPUT" pad="3"/>
+<connect gate="G$1" pin="OUTPUT" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+<library name="frames" urn="urn:adsk.eagle:library:229">
+<description>&lt;b&gt;Frames for Sheet and Layout&lt;/b&gt;</description>
+<packages>
+</packages>
+<symbols>
+<symbol name="A3L-LOC" urn="urn:adsk.eagle:symbol:13881/1" library_version="1">
+<wire x1="288.29" y1="3.81" x2="342.265" y2="3.81" width="0.1016" layer="94"/>
+<wire x1="342.265" y1="3.81" x2="373.38" y2="3.81" width="0.1016" layer="94"/>
+<wire x1="373.38" y1="3.81" x2="383.54" y2="3.81" width="0.1016" layer="94"/>
+<wire x1="383.54" y1="3.81" x2="383.54" y2="8.89" width="0.1016" layer="94"/>
+<wire x1="383.54" y1="8.89" x2="383.54" y2="13.97" width="0.1016" layer="94"/>
+<wire x1="383.54" y1="13.97" x2="383.54" y2="19.05" width="0.1016" layer="94"/>
+<wire x1="383.54" y1="19.05" x2="383.54" y2="24.13" width="0.1016" layer="94"/>
+<wire x1="288.29" y1="3.81" x2="288.29" y2="24.13" width="0.1016" layer="94"/>
+<wire x1="288.29" y1="24.13" x2="342.265" y2="24.13" width="0.1016" layer="94"/>
+<wire x1="342.265" y1="24.13" x2="383.54" y2="24.13" width="0.1016" layer="94"/>
+<wire x1="373.38" y1="3.81" x2="373.38" y2="8.89" width="0.1016" layer="94"/>
+<wire x1="373.38" y1="8.89" x2="383.54" y2="8.89" width="0.1016" layer="94"/>
+<wire x1="373.38" y1="8.89" x2="342.265" y2="8.89" width="0.1016" layer="94"/>
+<wire x1="342.265" y1="8.89" x2="342.265" y2="3.81" width="0.1016" layer="94"/>
+<wire x1="342.265" y1="8.89" x2="342.265" y2="13.97" width="0.1016" layer="94"/>
+<wire x1="342.265" y1="13.97" x2="383.54" y2="13.97" width="0.1016" layer="94"/>
+<wire x1="342.265" y1="13.97" x2="342.265" y2="19.05" width="0.1016" layer="94"/>
+<wire x1="342.265" y1="19.05" x2="383.54" y2="19.05" width="0.1016" layer="94"/>
+<wire x1="342.265" y1="19.05" x2="342.265" y2="24.13" width="0.1016" layer="94"/>
+<text x="344.17" y="15.24" size="2.54" layer="94">&gt;DRAWING_NAME</text>
+<text x="344.17" y="10.16" size="2.286" layer="94">&gt;LAST_DATE_TIME</text>
+<text x="357.505" y="5.08" size="2.54" layer="94">&gt;SHEET</text>
+<text x="343.916" y="4.953" size="2.54" layer="94">Sheet:</text>
+<frame x1="0" y1="0" x2="387.35" y2="260.35" columns="8" rows="5" layer="94"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="A3L-LOC" urn="urn:adsk.eagle:component:13942/1" prefix="FRAME" uservalue="yes" library_version="1">
+<description>&lt;b&gt;FRAME&lt;/b&gt;&lt;p&gt;
+DIN A3, landscape with location and doc. field</description>
+<gates>
+<gate name="G$1" symbol="A3L-LOC" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+<library name="CAP_GRM21BR61C106KE15L">
+<packages>
+<package name="CAPC2012X135N">
+<text x="-1.66" y="-1.02" size="0.5" layer="27" align="top-left">&gt;VALUE</text>
+<text x="-1.66" y="1.02" size="0.5" layer="25">&gt;NAME</text>
+<wire x1="1.05" y1="-0.68" x2="-1.05" y2="-0.68" width="0.127" layer="51"/>
+<wire x1="1.05" y1="0.68" x2="-1.05" y2="0.68" width="0.127" layer="51"/>
+<wire x1="1.05" y1="-0.68" x2="1.05" y2="0.68" width="0.127" layer="51"/>
+<wire x1="-1.05" y1="-0.68" x2="-1.05" y2="0.68" width="0.127" layer="51"/>
+<wire x1="-1.665" y1="-0.94" x2="1.665" y2="-0.94" width="0.05" layer="39"/>
+<wire x1="-1.665" y1="0.94" x2="1.665" y2="0.94" width="0.05" layer="39"/>
+<wire x1="-1.665" y1="-0.94" x2="-1.665" y2="0.94" width="0.05" layer="39"/>
+<wire x1="1.665" y1="-0.94" x2="1.665" y2="0.94" width="0.05" layer="39"/>
+<smd name="1" x="-0.888" y="0" dx="1.05" dy="1.38" layer="1"/>
+<smd name="2" x="0.888" y="0" dx="1.05" dy="1.38" layer="1"/>
+</package>
+</packages>
+<symbols>
+<symbol name="GRM21BR61C106KE15L">
+<text x="0" y="3.81093125" size="1.77843125" layer="95">&gt;NAME</text>
+<text x="0" y="-5.08848125" size="1.78096875" layer="96">&gt;VALUE</text>
+<rectangle x1="0" y1="-1.906859375" x2="0.635" y2="1.905" layer="94"/>
+<rectangle x1="1.90685" y1="-1.90685" x2="2.54" y2="1.905" layer="94"/>
+<pin name="2" x="5.08" y="0" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="1" x="-2.54" y="0" visible="pad" length="short" direction="pas"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="GRM21BR61C106KE15L" prefix="C">
+<gates>
+<gate name="G$1" symbol="GRM21BR61C106KE15L" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="CAPC2012X135N">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value=" 10 µF ±10% 16V Ceramic Capacitor X5R 0805 (2012 Metric) "/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="490-3886-2-ND"/>
+<attribute name="MF" value="Murata"/>
+<attribute name="MP" value="GRM21BR61C106KE15L"/>
+<attribute name="PACKAGE" value="2012 Murata"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/GRM21BR61C106KE15L/?ref=eda"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+<library name="CAP_GRM21BR61C226ME44L">
+<packages>
+<package name="CAPC2012X145N">
+<text x="-1.71" y="-1.07" size="0.5" layer="27" align="top-left">&gt;VALUE</text>
+<text x="-1.71" y="1.07" size="0.5" layer="25">&gt;NAME</text>
+<wire x1="1.1" y1="-0.72" x2="-1.1" y2="-0.72" width="0.127" layer="51"/>
+<wire x1="1.1" y1="0.72" x2="-1.1" y2="0.72" width="0.127" layer="51"/>
+<wire x1="1.1" y1="-0.72" x2="1.1" y2="0.72" width="0.127" layer="51"/>
+<wire x1="-1.1" y1="-0.72" x2="-1.1" y2="0.72" width="0.127" layer="51"/>
+<wire x1="-1.708" y1="-0.983" x2="1.708" y2="-0.983" width="0.05" layer="39"/>
+<wire x1="-1.708" y1="0.983" x2="1.708" y2="0.983" width="0.05" layer="39"/>
+<wire x1="-1.708" y1="-0.983" x2="-1.708" y2="0.983" width="0.05" layer="39"/>
+<wire x1="1.708" y1="-0.983" x2="1.708" y2="0.983" width="0.05" layer="39"/>
+<smd name="1" x="-0.9" y="0" dx="1.11" dy="1.47" layer="1"/>
+<smd name="2" x="0.9" y="0" dx="1.11" dy="1.47" layer="1"/>
+</package>
+</packages>
+<symbols>
+<symbol name="GRM21BR61C226ME44L">
+<text x="0" y="3.81093125" size="1.77843125" layer="95">&gt;NAME</text>
+<text x="0" y="-5.08848125" size="1.78096875" layer="96">&gt;VALUE</text>
+<rectangle x1="0" y1="-1.906859375" x2="0.635" y2="1.905" layer="94"/>
+<rectangle x1="1.90685" y1="-1.90685" x2="2.54" y2="1.905" layer="94"/>
+<pin name="2" x="5.08" y="0" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="1" x="-2.54" y="0" visible="pad" length="short" direction="pas"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="GRM21BR61C226ME44L" prefix="C">
+<gates>
+<gate name="G$1" symbol="GRM21BR61C226ME44L" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="CAPC2012X145N">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value=" SMD Capacitor X5R(EIA) with Capacitance: 22uF Tol. 20%. Rated Voltage: 16Vdc "/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="490-10747-2-ND"/>
+<attribute name="MF" value="Murata"/>
+<attribute name="MP" value="GRM21BR61C226ME44L"/>
+<attribute name="PACKAGE" value="2012 Murata"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/GRM21BR61C226ME44L/?ref=eda"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -1823,7 +2019,6 @@ Out: 5.2V 3A</text>
 </class>
 </classes>
 <parts>
-<part name="FRAME1" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A3L-LOC" device=""/>
 <part name="RFB1" library="CRCW04021K00FKED" deviceset="CRCW04021K00FKED" device="RES_CRCW_0402" value="1kΩ"/>
 <part name="D1" library="CDBC520-G_Library" deviceset="CDBC520-G" device="CDBC-G" value="550mV 5A"/>
 <part name="CIN" library="20SVPF120M" deviceset="20SVPF120M" device="PCAP_SVP_C6_PAN" value="120uF 25mΩ"/>
@@ -1835,19 +2030,23 @@ Out: 5.2V 3A</text>
 <part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="U1" library="LM2678SX-ADJNOPB" deviceset="LM2678SX-ADJ/NOPB" device="TS7B"/>
 <part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="SUPPLY2" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="5V" device=""/>
+<part name="SUPPLY2" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="5V" device="" value="5.2V"/>
 <part name="SUPPLY1" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="12V" device=""/>
+<part name="FRAME1" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A3L-LOC" device=""/>
+<part name="U$1" library="AZ1117C-3.3" deviceset="SOT150P410X160-3N" device=""/>
+<part name="C1" library="CAP_GRM21BR61C106KE15L" deviceset="GRM21BR61C106KE15L" device="" value="10uF 16V"/>
+<part name="C2" library="CAP_GRM21BR61C226ME44L" deviceset="GRM21BR61C226ME44L" device="" value="22uF 16V"/>
+<part name="SUPPLY3" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="5V" device="" value="5.2V"/>
+<part name="SUPPLY4" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="3.3V" device=""/>
+<part name="GND3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="GND4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="GND5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
 <plain>
 </plain>
 <instances>
-<instance part="FRAME1" gate="G$1" x="-157.48" y="-116.84" smashed="yes">
-<attribute name="DRAWING_NAME" x="186.69" y="-101.6" size="2.54" layer="94"/>
-<attribute name="LAST_DATE_TIME" x="186.69" y="-106.68" size="2.286" layer="94"/>
-<attribute name="SHEET" x="200.025" y="-111.76" size="2.54" layer="94"/>
-</instance>
 <instance part="RFB1" gate="A" x="40.64" y="73.66" smashed="yes">
 <attribute name="VALUE" x="44.6309" y="70.1421" size="1.27" layer="96" ratio="10"/>
 <attribute name="NAME" x="42.0162" y="76.7461" size="2.54" layer="95" ratio="10"/>
@@ -1888,10 +2087,39 @@ Out: 5.2V 3A</text>
 <attribute name="VALUE" x="5.08" y="15.24" size="1.778" layer="96"/>
 </instance>
 <instance part="SUPPLY2" gate="G$1" x="81.534" y="44.958" smashed="yes" rot="R270">
-<attribute name="VALUE" x="84.582" y="46.228" size="1.778" layer="96" align="bottom-center"/>
+<attribute name="VALUE" x="88.138" y="44.196" size="1.778" layer="96" align="bottom-center"/>
 </instance>
 <instance part="SUPPLY1" gate="G$1" x="-56.134" y="50.038" smashed="yes" rot="R90">
 <attribute name="VALUE" x="-61.976" y="50.8" size="1.778" layer="96" rot="R180" align="bottom-center"/>
+</instance>
+<instance part="FRAME1" gate="G$1" x="-177.8" y="-116.84" smashed="yes">
+<attribute name="DRAWING_NAME" x="166.37" y="-101.6" size="2.54" layer="94"/>
+<attribute name="LAST_DATE_TIME" x="166.37" y="-106.68" size="2.286" layer="94"/>
+<attribute name="SHEET" x="179.705" y="-111.76" size="2.54" layer="94"/>
+</instance>
+<instance part="U$1" gate="G$1" x="-27.432" y="-25.908" smashed="yes"/>
+<instance part="C1" gate="G$1" x="0" y="-35.56" smashed="yes" rot="R270">
+<attribute name="NAME" x="-7.62" y="-36.82906875" size="1.77843125" layer="95"/>
+<attribute name="VALUE" x="-12.7" y="-43.18848125" size="1.78096875" layer="96"/>
+</instance>
+<instance part="C2" gate="G$1" x="-58.42" y="-38.1" smashed="yes" rot="R270">
+<attribute name="NAME" x="-55.88" y="-36.82906875" size="1.77843125" layer="95"/>
+<attribute name="VALUE" x="-55.88" y="-43.18848125" size="1.78096875" layer="96"/>
+</instance>
+<instance part="SUPPLY3" gate="G$1" x="-73.406" y="-25.654" smashed="yes" rot="R90">
+<attribute name="VALUE" x="-76.454" y="-26.924" size="1.778" layer="96" rot="R180" align="bottom-center"/>
+</instance>
+<instance part="SUPPLY4" gate="G$1" x="15.24" y="-25.654" smashed="yes" rot="R270">
+<attribute name="VALUE" x="17.78" y="-22.86" size="1.778" layer="96" align="bottom-center"/>
+</instance>
+<instance part="GND3" gate="1" x="-26.67" y="-50.8" smashed="yes">
+<attribute name="VALUE" x="-29.21" y="-53.34" size="1.778" layer="96"/>
+</instance>
+<instance part="GND4" gate="1" x="-58.42" y="-50.8" smashed="yes">
+<attribute name="VALUE" x="-60.96" y="-53.34" size="1.778" layer="96"/>
+</instance>
+<instance part="GND5" gate="1" x="0" y="-50.8" smashed="yes">
+<attribute name="VALUE" x="-2.54" y="-53.34" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -1938,6 +2166,21 @@ Out: 5.2V 3A</text>
 <pinref part="U1" gate="A" pin="GND"/>
 <wire x1="-6.35" y1="32.258" x2="-6.35" y2="20.32" width="0.1524" layer="91"/>
 <junction x="-6.35" y="20.32"/>
+</segment>
+<segment>
+<pinref part="C2" gate="G$1" pin="2"/>
+<pinref part="GND4" gate="1" pin="GND"/>
+<wire x1="-58.42" y1="-43.18" x2="-58.42" y2="-48.26" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="GND"/>
+<pinref part="GND3" gate="1" pin="GND"/>
+<wire x1="-26.67" y1="-39.37" x2="-26.67" y2="-48.26" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="GND5" gate="1" pin="GND"/>
+<pinref part="C1" gate="G$1" pin="2"/>
+<wire x1="0" y1="-48.26" x2="0" y2="-40.64" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$2" class="0">
@@ -1991,10 +2234,33 @@ Out: 5.2V 3A</text>
 <pinref part="SUPPLY2" gate="G$1" pin="5V"/>
 <wire x1="81.534" y1="44.958" x2="66.294" y2="44.958" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="SUPPLY3" gate="G$1" pin="5V"/>
+<pinref part="U$1" gate="G$1" pin="INPUT"/>
+<wire x1="-73.406" y1="-25.654" x2="-58.42" y2="-25.654" width="0.1524" layer="91"/>
+<pinref part="C2" gate="G$1" pin="1"/>
+<wire x1="-58.42" y1="-25.654" x2="-43.18" y2="-25.654" width="0.1524" layer="91"/>
+<wire x1="-58.42" y1="-35.56" x2="-58.42" y2="-25.654" width="0.1524" layer="91"/>
+<junction x="-58.42" y="-25.654"/>
+</segment>
+</net>
+<net name="3.3V" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="OUTPUT"/>
+<pinref part="SUPPLY4" gate="G$1" pin="3.3V"/>
+<wire x1="-10.16" y1="-25.654" x2="0" y2="-25.654" width="0.1524" layer="91"/>
+<pinref part="C1" gate="G$1" pin="1"/>
+<wire x1="0" y1="-25.654" x2="15.24" y2="-25.654" width="0.1524" layer="91"/>
+<wire x1="0" y1="-33.02" x2="0" y2="-25.654" width="0.1524" layer="91"/>
+<junction x="0" y="-25.654"/>
+</segment>
 </net>
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="113,1,36.091,13.231,FRAME1,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 <compatibility>

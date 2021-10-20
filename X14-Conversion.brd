@@ -532,6 +532,77 @@
 </package>
 </packages>
 </library>
+<library name="AZ1117C-3.3">
+<packages>
+<package name="SOT150P410X160-3N">
+<wire x1="2.235" y1="-1.245" x2="-2.235" y2="-1.245" width="0.1524" layer="51"/>
+<wire x1="-2.235" y1="1.219" x2="2.235" y2="1.219" width="0.1524" layer="51"/>
+<wire x1="-0.7874" y1="1.5748" x2="-0.3556" y2="2.0066" width="0.2032" layer="51"/>
+<wire x1="-0.3556" y1="2.0066" x2="0.3556" y2="2.0066" width="0.2032" layer="51"/>
+<wire x1="0.3556" y1="2.0066" x2="0.7874" y2="1.5748" width="0.2032" layer="51"/>
+<wire x1="0.7874" y1="1.5748" x2="0.7874" y2="1.2954" width="0.2032" layer="51"/>
+<wire x1="0.7874" y1="1.2954" x2="-0.7874" y2="1.2954" width="0.2032" layer="51"/>
+<wire x1="-0.7874" y1="1.2954" x2="-0.7874" y2="1.5748" width="0.2032" layer="51"/>
+<text x="-7.671959375" y="4.202740625" size="3.2051" layer="25">&gt;NAME</text>
+<text x="-8.144790625" y="-8.0513" size="3.278490625" layer="27">&gt;VALUE</text>
+<polygon width="0.1998" layer="51">
+<vertex x="-0.7874" y="1.3208"/>
+<vertex x="-0.7874" y="1.5748"/>
+<vertex x="-0.3556" y="2.0066"/>
+<vertex x="0.3048" y="2.0066"/>
+<vertex x="0.3556" y="2.0066"/>
+<vertex x="0.7874" y="1.5748"/>
+<vertex x="0.7874" y="1.2954"/>
+<vertex x="-0.7874" y="1.2954"/>
+</polygon>
+<wire x1="-2.75" y1="3" x2="2.75" y2="3" width="0.127" layer="39"/>
+<wire x1="2.75" y1="3" x2="2.75" y2="-3" width="0.127" layer="39"/>
+<wire x1="2.75" y1="-3" x2="-2.75" y2="-3" width="0.127" layer="39"/>
+<wire x1="-2.75" y1="-3" x2="-2.75" y2="3" width="0.127" layer="39"/>
+<circle x="-2.25" y="-2.5" radius="0.127" width="0" layer="21"/>
+<smd name="1" x="-1.499" y="-1.981" dx="0.8" dy="1.4" layer="1"/>
+<smd name="3" x="1.499" y="-1.981" dx="0.8" dy="1.4" layer="1"/>
+<smd name="2" x="0" y="-1.727" dx="0.8" dy="1.9" layer="1"/>
+<smd name="4" x="0" y="0.889" dx="2" dy="3.5" layer="1" roundness="75" cream="no"/>
+</package>
+</packages>
+</library>
+<library name="CAP_GRM21BR61C106KE15L">
+<packages>
+<package name="CAPC2012X135N">
+<text x="-1.66" y="-1.02" size="0.5" layer="27" align="top-left">&gt;VALUE</text>
+<text x="-1.66" y="1.02" size="0.5" layer="25">&gt;NAME</text>
+<wire x1="1.05" y1="-0.68" x2="-1.05" y2="-0.68" width="0.127" layer="51"/>
+<wire x1="1.05" y1="0.68" x2="-1.05" y2="0.68" width="0.127" layer="51"/>
+<wire x1="1.05" y1="-0.68" x2="1.05" y2="0.68" width="0.127" layer="51"/>
+<wire x1="-1.05" y1="-0.68" x2="-1.05" y2="0.68" width="0.127" layer="51"/>
+<wire x1="-1.665" y1="-0.94" x2="1.665" y2="-0.94" width="0.05" layer="39"/>
+<wire x1="-1.665" y1="0.94" x2="1.665" y2="0.94" width="0.05" layer="39"/>
+<wire x1="-1.665" y1="-0.94" x2="-1.665" y2="0.94" width="0.05" layer="39"/>
+<wire x1="1.665" y1="-0.94" x2="1.665" y2="0.94" width="0.05" layer="39"/>
+<smd name="1" x="-0.888" y="0" dx="1.05" dy="1.38" layer="1"/>
+<smd name="2" x="0.888" y="0" dx="1.05" dy="1.38" layer="1"/>
+</package>
+</packages>
+</library>
+<library name="CAP_GRM21BR61C226ME44L">
+<packages>
+<package name="CAPC2012X145N">
+<text x="-1.71" y="-1.07" size="0.5" layer="27" align="top-left">&gt;VALUE</text>
+<text x="-1.71" y="1.07" size="0.5" layer="25">&gt;NAME</text>
+<wire x1="1.1" y1="-0.72" x2="-1.1" y2="-0.72" width="0.127" layer="51"/>
+<wire x1="1.1" y1="0.72" x2="-1.1" y2="0.72" width="0.127" layer="51"/>
+<wire x1="1.1" y1="-0.72" x2="1.1" y2="0.72" width="0.127" layer="51"/>
+<wire x1="-1.1" y1="-0.72" x2="-1.1" y2="0.72" width="0.127" layer="51"/>
+<wire x1="-1.708" y1="-0.983" x2="1.708" y2="-0.983" width="0.05" layer="39"/>
+<wire x1="-1.708" y1="0.983" x2="1.708" y2="0.983" width="0.05" layer="39"/>
+<wire x1="-1.708" y1="-0.983" x2="-1.708" y2="0.983" width="0.05" layer="39"/>
+<wire x1="1.708" y1="-0.983" x2="1.708" y2="0.983" width="0.05" layer="39"/>
+<smd name="1" x="-0.9" y="0" dx="1.11" dy="1.47" layer="1"/>
+<smd name="2" x="0.9" y="0" dx="1.11" dy="1.47" layer="1"/>
+</package>
+</packages>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -811,6 +882,30 @@ design rules under a new name.</description>
 <attribute name="TYPE" value="LM2678S-12" x="-78.74" y="-71.12" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="-80.4688" y="-71.755" size="1.27" layer="27" ratio="6"/>
 </element>
+<element name="U$1" library="AZ1117C-3.3" package="SOT150P410X160-3N" value="SOT150P410X160-3N" x="-74.93" y="-90.17" smashed="yes">
+<attribute name="NAME" x="-82.601959375" y="-85.967259375" size="3.2051" layer="25" display="off"/>
+<attribute name="VALUE" x="-83.074790625" y="-95.6813" size="1.27" layer="27"/>
+</element>
+<element name="C1" library="CAP_GRM21BR61C106KE15L" package="CAPC2012X135N" value="10uF 16V" x="-82.55" y="-99.06" smashed="yes">
+<attribute name="DESCRIPTION" value=" 10 µF ±10% 16V Ceramic Capacitor X5R 0805 (2012 Metric) " x="-82.55" y="-99.06" size="1.778" layer="27" display="off"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="490-3886-2-ND" x="-82.55" y="-99.06" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="Murata" x="-82.55" y="-99.06" size="1.778" layer="27" display="off"/>
+<attribute name="MP" value="GRM21BR61C106KE15L" x="-82.55" y="-99.06" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-84.21" y="-98.04" size="0.5" layer="25"/>
+<attribute name="PACKAGE" value="2012 Murata" x="-82.55" y="-99.06" size="1.778" layer="27" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/GRM21BR61C106KE15L/?ref=eda" x="-82.55" y="-99.06" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-84.21" y="-100.08" size="0.5" layer="27" align="top-left"/>
+</element>
+<element name="C2" library="CAP_GRM21BR61C226ME44L" package="CAPC2012X145N" value="22uF 16V" x="-82.55" y="-102.87" smashed="yes">
+<attribute name="DESCRIPTION" value=" SMD Capacitor X5R(EIA) with Capacitance: 22uF Tol. 20%. Rated Voltage: 16Vdc " x="-82.55" y="-102.87" size="1.778" layer="27" display="off"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="490-10747-2-ND" x="-82.55" y="-102.87" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="Murata" x="-82.55" y="-102.87" size="1.778" layer="27" display="off"/>
+<attribute name="MP" value="GRM21BR61C226ME44L" x="-82.55" y="-102.87" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-84.26" y="-101.8" size="0.5" layer="25"/>
+<attribute name="PACKAGE" value="2012 Murata" x="-82.55" y="-102.87" size="1.778" layer="27" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/GRM21BR61C226ME44L/?ref=eda" x="-82.55" y="-102.87" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-84.26" y="-103.94" size="0.5" layer="27" align="top-left"/>
+</element>
 </elements>
 <signals>
 <signal name="N$1">
@@ -827,6 +922,12 @@ design rules under a new name.</description>
 <contactref element="CIN" pad="2"/>
 <contactref element="CINX" pad="2"/>
 <contactref element="U1" pad="4"/>
+<contactref element="C2" pad="2"/>
+<contactref element="U$1" pad="1"/>
+<contactref element="C1" pad="2"/>
+<wire x1="-81.662" y1="-99.06" x2="-81.65" y2="-102.87" width="0" layer="19" extent="1-1"/>
+<wire x1="-76.429" y1="-92.151" x2="-81.662" y2="-99.06" width="0" layer="19" extent="1-1"/>
+<wire x1="-78.74" y1="-79.4004" x2="-76.429" y2="-92.151" width="0" layer="19" extent="1-1"/>
 <wire x1="-68.0593" y1="-80.01" x2="-78.74" y2="-79.4004" width="0" layer="19" extent="1-1"/>
 <wire x1="-61.69" y1="-69.85" x2="-68.0593" y2="-80.01" width="0" layer="19" extent="1-1"/>
 <wire x1="-49.3141" y1="-54.61" x2="-61.69" y2="-69.85" width="0" layer="19" extent="1-1"/>
@@ -858,8 +959,17 @@ design rules under a new name.</description>
 <contactref element="L1" pad="2"/>
 <contactref element="COUT" pad="1"/>
 <contactref element="RFB2" pad="1"/>
+<contactref element="U$1" pad="3"/>
+<contactref element="C2" pad="1"/>
+<wire x1="-73.431" y1="-92.151" x2="-83.45" y2="-102.87" width="0" layer="19" extent="1-1"/>
+<wire x1="-70.39" y1="-69.85" x2="-73.431" y2="-92.151" width="0" layer="19" extent="1-1"/>
 <wire x1="-53.8099" y1="-59.69" x2="-70.39" y2="-69.85" width="0" layer="19" extent="1-1"/>
 <wire x1="-43.93" y1="-68.58" x2="-53.8099" y2="-59.69" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="3.3V">
+<contactref element="U$1" pad="2"/>
+<contactref element="C1" pad="1"/>
+<wire x1="-74.93" y1="-91.897" x2="-83.438" y2="-99.06" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>

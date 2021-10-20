@@ -2122,13 +2122,6 @@ DIN A3, landscape with location and doc. field</description>
 <junction x="22.86" y="72.898"/>
 </segment>
 </net>
-<net name="5V" class="0">
-<segment>
-<pinref part="CONN" gate="G$1" pin="VOUT+_5"/>
-<wire x1="91.44" y1="-22.86" x2="101.6" y2="-22.86" width="0.1524" layer="91"/>
-<label x="101.6" y="-22.86" size="1.778" layer="95" xref="yes"/>
-</segment>
-</net>
 <net name="3.3V" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="OUTPUT"/>
@@ -2166,6 +2159,11 @@ DIN A3, landscape with location and doc. field</description>
 <wire x1="-104.14" y1="-27.94" x2="-104.14" y2="-18.034" width="0.1524" layer="91"/>
 <junction x="-104.14" y="-18.034"/>
 <label x="-119.126" y="-18.034" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="CONN" gate="G$1" pin="VOUT+_5"/>
+<wire x1="91.44" y1="-22.86" x2="101.6" y2="-22.86" width="0.1524" layer="91"/>
+<label x="101.6" y="-22.86" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="12V" class="0">

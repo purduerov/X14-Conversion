@@ -971,9 +971,6 @@ design rules under a new name.</description>
 <wire x1="-52.1589" y1="-77.47" x2="-55.13" y2="-68.58" width="0" layer="19" extent="1-1"/>
 <wire x1="-55.197" y1="-46.99" x2="-55.13" y2="-68.58" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="5V">
-<contactref element="CONN" pad="3"/>
-</signal>
 <signal name="3.3V">
 <contactref element="U$1" pad="2"/>
 <contactref element="C1" pad="1"/>
@@ -987,6 +984,8 @@ design rules under a new name.</description>
 <contactref element="RFB2" pad="1"/>
 <contactref element="U$1" pad="3"/>
 <contactref element="C2" pad="1"/>
+<contactref element="CONN" pad="3"/>
+<wire x1="-83.45" y1="-102.87" x2="-77.49" y2="-109.22" width="0" layer="19" extent="1-1"/>
 <wire x1="-73.431" y1="-92.151" x2="-83.45" y2="-102.87" width="0" layer="19" extent="1-1"/>
 <wire x1="-70.39" y1="-69.85" x2="-73.431" y2="-92.151" width="0" layer="19" extent="1-1"/>
 <wire x1="-53.8099" y1="-59.69" x2="-70.39" y2="-69.85" width="0" layer="19" extent="1-1"/>

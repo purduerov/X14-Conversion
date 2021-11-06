@@ -1097,112 +1097,6 @@ DIN A3, landscape with location and doc. field</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="CAP_GRM21BR61C106KE15L">
-<packages>
-<package name="CAPC2012X135N">
-<text x="-1.66" y="-1.02" size="0.5" layer="27" align="top-left">&gt;VALUE</text>
-<text x="-1.66" y="1.02" size="0.5" layer="25">&gt;NAME</text>
-<wire x1="1.05" y1="-0.68" x2="-1.05" y2="-0.68" width="0.127" layer="51"/>
-<wire x1="1.05" y1="0.68" x2="-1.05" y2="0.68" width="0.127" layer="51"/>
-<wire x1="1.05" y1="-0.68" x2="1.05" y2="0.68" width="0.127" layer="51"/>
-<wire x1="-1.05" y1="-0.68" x2="-1.05" y2="0.68" width="0.127" layer="51"/>
-<wire x1="-1.665" y1="-0.94" x2="1.665" y2="-0.94" width="0.05" layer="39"/>
-<wire x1="-1.665" y1="0.94" x2="1.665" y2="0.94" width="0.05" layer="39"/>
-<wire x1="-1.665" y1="-0.94" x2="-1.665" y2="0.94" width="0.05" layer="39"/>
-<wire x1="1.665" y1="-0.94" x2="1.665" y2="0.94" width="0.05" layer="39"/>
-<smd name="1" x="-0.888" y="0" dx="1.05" dy="1.38" layer="1"/>
-<smd name="2" x="0.888" y="0" dx="1.05" dy="1.38" layer="1"/>
-</package>
-</packages>
-<symbols>
-<symbol name="GRM21BR61C106KE15L">
-<text x="0" y="3.81093125" size="1.77843125" layer="95">&gt;NAME</text>
-<text x="0" y="-5.08848125" size="1.78096875" layer="96">&gt;VALUE</text>
-<rectangle x1="0" y1="-1.906859375" x2="0.635" y2="1.905" layer="94"/>
-<rectangle x1="1.90685" y1="-1.90685" x2="2.54" y2="1.905" layer="94"/>
-<pin name="2" x="5.08" y="0" visible="pad" length="short" direction="pas" rot="R180"/>
-<pin name="1" x="-2.54" y="0" visible="pad" length="short" direction="pas"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="GRM21BR61C106KE15L" prefix="C">
-<gates>
-<gate name="G$1" symbol="GRM21BR61C106KE15L" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="CAPC2012X135N">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="DESCRIPTION" value=" 10 µF ±10% 16V Ceramic Capacitor X5R 0805 (2012 Metric) "/>
-<attribute name="DIGI-KEY_PART_NUMBER" value="490-3886-2-ND"/>
-<attribute name="MF" value="Murata"/>
-<attribute name="MP" value="GRM21BR61C106KE15L"/>
-<attribute name="PACKAGE" value="2012 Murata"/>
-<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/GRM21BR61C106KE15L/?ref=eda"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
-<library name="CAP_GRM21BR61C226ME44L">
-<packages>
-<package name="CAPC2012X145N">
-<text x="-1.71" y="-1.07" size="0.5" layer="27" align="top-left">&gt;VALUE</text>
-<text x="-1.71" y="1.07" size="0.5" layer="25">&gt;NAME</text>
-<wire x1="1.1" y1="-0.72" x2="-1.1" y2="-0.72" width="0.127" layer="51"/>
-<wire x1="1.1" y1="0.72" x2="-1.1" y2="0.72" width="0.127" layer="51"/>
-<wire x1="1.1" y1="-0.72" x2="1.1" y2="0.72" width="0.127" layer="51"/>
-<wire x1="-1.1" y1="-0.72" x2="-1.1" y2="0.72" width="0.127" layer="51"/>
-<wire x1="-1.708" y1="-0.983" x2="1.708" y2="-0.983" width="0.05" layer="39"/>
-<wire x1="-1.708" y1="0.983" x2="1.708" y2="0.983" width="0.05" layer="39"/>
-<wire x1="-1.708" y1="-0.983" x2="-1.708" y2="0.983" width="0.05" layer="39"/>
-<wire x1="1.708" y1="-0.983" x2="1.708" y2="0.983" width="0.05" layer="39"/>
-<smd name="1" x="-0.9" y="0" dx="1.11" dy="1.47" layer="1"/>
-<smd name="2" x="0.9" y="0" dx="1.11" dy="1.47" layer="1"/>
-</package>
-</packages>
-<symbols>
-<symbol name="GRM21BR61C226ME44L">
-<text x="0" y="3.81093125" size="1.77843125" layer="95">&gt;NAME</text>
-<text x="0" y="-5.08848125" size="1.78096875" layer="96">&gt;VALUE</text>
-<rectangle x1="0" y1="-1.906859375" x2="0.635" y2="1.905" layer="94"/>
-<rectangle x1="1.90685" y1="-1.90685" x2="2.54" y2="1.905" layer="94"/>
-<pin name="2" x="5.08" y="0" visible="pad" length="short" direction="pas" rot="R180"/>
-<pin name="1" x="-2.54" y="0" visible="pad" length="short" direction="pas"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="GRM21BR61C226ME44L" prefix="C">
-<gates>
-<gate name="G$1" symbol="GRM21BR61C226ME44L" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="CAPC2012X145N">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="DESCRIPTION" value=" SMD Capacitor X5R(EIA) with Capacitance: 22uF Tol. 20%. Rated Voltage: 16Vdc "/>
-<attribute name="DIGI-KEY_PART_NUMBER" value="490-10747-2-ND"/>
-<attribute name="MF" value="Murata"/>
-<attribute name="MP" value="GRM21BR61C226ME44L"/>
-<attribute name="PACKAGE" value="2012 Murata"/>
-<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/GRM21BR61C226ME44L/?ref=eda"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="CONN, Distribution-Conversion">
 <packages>
 <package name="TSW-105-05-G-S">
@@ -1531,6 +1425,51 @@ Commonly used for small ceramic capacitors. Like our 0.1uF (http://www.sparkfun.
 <text x="0" y="1" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;Name</text>
 <text x="0" y="-1" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;Value</text>
 </package>
+<package name="1206" urn="urn:adsk.eagle:footprint:37399/1" library_version="1">
+<description>&lt;p&gt;&lt;b&gt;Generic 3216 (1206) package&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;0.2mm courtyard excess rounded to nearest 0.05mm.&lt;/p&gt;</description>
+<wire x1="-2.4" y1="1.1" x2="2.4" y2="1.1" width="0.0508" layer="39"/>
+<wire x1="2.4" y1="-1.1" x2="-2.4" y2="-1.1" width="0.0508" layer="39"/>
+<wire x1="-2.4" y1="-1.1" x2="-2.4" y2="1.1" width="0.0508" layer="39"/>
+<wire x1="2.4" y1="1.1" x2="2.4" y2="-1.1" width="0.0508" layer="39"/>
+<wire x1="-0.965" y1="0.787" x2="0.965" y2="0.787" width="0.1016" layer="51"/>
+<wire x1="-0.965" y1="-0.787" x2="0.965" y2="-0.787" width="0.1016" layer="51"/>
+<smd name="1" x="-1.4" y="0" dx="1.6" dy="1.8" layer="1"/>
+<smd name="2" x="1.4" y="0" dx="1.6" dy="1.8" layer="1"/>
+<text x="0" y="1.143" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.143" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+<rectangle x1="-1.7018" y1="-0.8509" x2="-0.9517" y2="0.8491" layer="51"/>
+<rectangle x1="0.9517" y1="-0.8491" x2="1.7018" y2="0.8509" layer="51"/>
+<rectangle x1="-0.1999" y1="-0.4001" x2="0.1999" y2="0.4001" layer="35"/>
+</package>
+<package name="0805" urn="urn:adsk.eagle:footprint:37400/1" library_version="1">
+<description>&lt;p&gt;&lt;b&gt;Generic 2012 (0805) package&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;0.2mm courtyard excess rounded to nearest 0.05mm.&lt;/p&gt;</description>
+<smd name="1" x="-0.9" y="0" dx="0.8" dy="1.2" layer="1"/>
+<smd name="2" x="0.9" y="0" dx="0.8" dy="1.2" layer="1"/>
+<text x="0" y="0.889" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-0.889" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+<wire x1="-1.5" y1="0.8" x2="1.5" y2="0.8" width="0.0508" layer="39"/>
+<wire x1="1.5" y1="0.8" x2="1.5" y2="-0.8" width="0.0508" layer="39"/>
+<wire x1="1.5" y1="-0.8" x2="-1.5" y2="-0.8" width="0.0508" layer="39"/>
+<wire x1="-1.5" y1="-0.8" x2="-1.5" y2="0.8" width="0.0508" layer="39"/>
+</package>
+<package name="1210" urn="urn:adsk.eagle:footprint:37401/1" library_version="1">
+<description>&lt;p&gt;&lt;b&gt;Generic 3225 (1210) package&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;0.2mm courtyard excess rounded to nearest 0.05mm.&lt;/p&gt;</description>
+<wire x1="-1.5365" y1="1.1865" x2="1.5365" y2="1.1865" width="0.127" layer="51"/>
+<wire x1="1.5365" y1="1.1865" x2="1.5365" y2="-1.1865" width="0.127" layer="51"/>
+<wire x1="1.5365" y1="-1.1865" x2="-1.5365" y2="-1.1865" width="0.127" layer="51"/>
+<wire x1="-1.5365" y1="-1.1865" x2="-1.5365" y2="1.1865" width="0.127" layer="51"/>
+<wire x1="-2.59" y1="1.45" x2="2.59" y2="1.45" width="0.0508" layer="39"/>
+<wire x1="2.59" y1="1.45" x2="2.59" y2="-1.45" width="0.0508" layer="39"/>
+<wire x1="2.59" y1="-1.45" x2="-2.59" y2="-1.45" width="0.0508" layer="39"/>
+<wire x1="-2.59" y1="-1.45" x2="-2.59" y2="1.45" width="0.0508" layer="39"/>
+<smd name="1" x="-1.755" y="0" dx="1.27" dy="2.06" layer="1"/>
+<smd name="2" x="1.755" y="0" dx="1.27" dy="2.06" layer="1"/>
+<text x="0" y="1.397" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.397" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+</package>
 </packages>
 <packages3d>
 <package3d name="0402" urn="urn:adsk.eagle:package:37413/1" type="box" library_version="1">
@@ -1560,6 +1499,27 @@ Warning: This is the KIT version of this package. This package has a smaller dia
 <description>2 PTH spaced 10mm apart</description>
 <packageinstances>
 <packageinstance name="CAP-PTH-10MM"/>
+</packageinstances>
+</package3d>
+<package3d name="1206" urn="urn:adsk.eagle:package:37426/1" type="box" library_version="1">
+<description>Generic 3216 (1206) package
+0.2mm courtyard excess rounded to nearest 0.05mm.</description>
+<packageinstances>
+<packageinstance name="1206"/>
+</packageinstances>
+</package3d>
+<package3d name="0805" urn="urn:adsk.eagle:package:37429/1" type="box" library_version="1">
+<description>Generic 2012 (0805) package
+0.2mm courtyard excess rounded to nearest 0.05mm.</description>
+<packageinstances>
+<packageinstance name="0805"/>
+</packageinstances>
+</package3d>
+<package3d name="1210" urn="urn:adsk.eagle:package:37436/1" type="box" library_version="1">
+<description>Generic 3225 (1210) package
+0.2mm courtyard excess rounded to nearest 0.05mm.</description>
+<packageinstances>
+<packageinstance name="1210"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -1697,6 +1657,111 @@ CAP-09321</description>
 <attribute name="PROD_ID" value="CAP-00867"/>
 <attribute name="VALUE" value="10nF"/>
 </technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="10UF" urn="urn:adsk.eagle:component:37478/1" prefix="C" library_version="1">
+<description>&lt;h3&gt;10.0µF ceramic capacitors&lt;/h3&gt;
+&lt;p&gt;A capacitor is a passive two-terminal electrical component used to store electrical energy temporarily in an electric field.&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="CAP" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-0603-6.3V-20%" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:37414/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="CAP-11015"/>
+<attribute name="VALUE" value="10uF"/>
+</technology>
+</technologies>
+</device>
+<device name="-1206-6.3V-20%" package="1206">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:37426/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="CAP-10057"/>
+<attribute name="VALUE" value="10uF"/>
+</technology>
+</technologies>
+</device>
+<device name="-0805-10V-10%" package="0805">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:37429/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="CAP-11330"/>
+<attribute name="VALUE" value="10uF"/>
+</technology>
+</technologies>
+</device>
+<device name="-1210-50V-20%" package="1210">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:37436/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="CAP-09824"/>
+<attribute name="VALUE" value="10uF"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="22UF" urn="urn:adsk.eagle:component:37479/1" prefix="C" library_version="1">
+<description>&lt;h3&gt;22µF ceramic capacitors&lt;/h3&gt;
+&lt;p&gt;A capacitor is a passive two-terminal electrical component used to store electrical energy temporarily in an electric field.&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="CAP" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-0805-6.3V-20%" package="0805">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:37429/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="CAP-08402"/>
+<attribute name="VALUE" value="22uF"/>
+</technology>
+</technologies>
+</device>
+<device name="-1210-16V-20%" package="1210">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:37436/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -2080,11 +2145,9 @@ Warning: This is the KIT version of the AXIAL-0.3 package. This package has a sm
 <part name="L1" library="IND, 15uH - hcma1305" deviceset="HCMA1305" device="" package3d_urn="urn:adsk.eagle:package:24201702/2" value="15uH"/>
 <part name="COUT" library="16SVP180MX" deviceset="16SVP180MX" device="" value="180uF 30mΩ"/>
 <part name="FRAME1" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A3L-LOC" device=""/>
-<part name="U$1" library="AZ1117C-3.3" deviceset="SOT150P410X160-3N" device=""/>
-<part name="C1" library="CAP_GRM21BR61C106KE15L" deviceset="GRM21BR61C106KE15L" device="" value="10uF 16V"/>
-<part name="C2" library="CAP_GRM21BR61C226ME44L" deviceset="GRM21BR61C226ME44L" device="" value="22uF 16V"/>
+<part name="AZ1117C" library="AZ1117C-3.3" deviceset="SOT150P410X160-3N" device="" value="AZ1117C-3.3"/>
 <part name="CONN" library="CONN, Distribution-Conversion" deviceset="DISTRIBUTION-CONVERSION" device=""/>
-<part name="U2" library="LM2678SX-ADJNOPB" deviceset="LM2678SD-ADJ/NOPB" device=""/>
+<part name="LM2678" library="LM2678SX-ADJNOPB" deviceset="LM2678SD-ADJ/NOPB" device=""/>
 <part name="U$2" library="testpoints" deviceset="3.3V_TESTPOINT" device=""/>
 <part name="U$3" library="testpoints" deviceset="5.2V_TESTPOINT" device=""/>
 <part name="U$4" library="testpoints" deviceset="12V_TESTPOINT" device=""/>
@@ -2099,6 +2162,8 @@ Warning: This is the KIT version of the AXIAL-0.3 package. This package has a sm
 <part name="RFB1" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="1KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:39650/1" value="1kΩ"/>
 <part name="CB" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="10NF" device="-0603-50V-10%" package3d_urn="urn:adsk.eagle:package:37414/1" value="10nF 0Ω"/>
 <part name="CINX" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="0.1UF" device="-0603-25V-(+80/-20%)" package3d_urn="urn:adsk.eagle:package:37414/1" value="0.1uF 1mΩ"/>
+<part name="C2" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="10UF" device="-0603-6.3V-20%" package3d_urn="urn:adsk.eagle:package:37414/1" value="10uF"/>
+<part name="C1" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="22UF" device="-0805-6.3V-20%" package3d_urn="urn:adsk.eagle:package:37429/1" value="22uF"/>
 </parts>
 <sheets>
 <sheet>
@@ -2132,19 +2197,11 @@ Warning: This is the KIT version of the AXIAL-0.3 package. This package has a sm
 <attribute name="LAST_DATE_TIME" x="166.37" y="-106.68" size="2.286" layer="94"/>
 <attribute name="SHEET" x="179.705" y="-111.76" size="2.54" layer="94"/>
 </instance>
-<instance part="U$1" gate="G$1" x="-75.692" y="-10.668" smashed="yes"/>
-<instance part="C1" gate="G$1" x="-48.26" y="-20.32" smashed="yes" rot="R270">
-<attribute name="NAME" x="-55.88" y="-21.58906875" size="1.77843125" layer="95"/>
-<attribute name="VALUE" x="-60.96" y="-27.94848125" size="1.78096875" layer="96"/>
-</instance>
-<instance part="C2" gate="G$1" x="-106.68" y="-22.86" smashed="yes" rot="R270">
-<attribute name="NAME" x="-104.14" y="-21.58906875" size="1.77843125" layer="95"/>
-<attribute name="VALUE" x="-104.14" y="-27.94848125" size="1.78096875" layer="96"/>
-</instance>
+<instance part="AZ1117C" gate="G$1" x="-75.692" y="-10.668" smashed="yes"/>
 <instance part="CONN" gate="G$1" x="-81.28" y="-83.82" smashed="yes">
 <attribute name="NAME" x="-88.9" y="-76.2" size="1.778" layer="95"/>
 </instance>
-<instance part="U2" gate="A" x="-2.54" y="66.04" smashed="yes">
+<instance part="LM2678" gate="A" x="-2.54" y="66.04" smashed="yes">
 <attribute name="NAME" x="-13.6144" y="79.9846" size="2.0828" layer="95" ratio="6" rot="SR0" display="off"/>
 <attribute name="VALUE" x="-13.4874" y="77.4446" size="2.0828" layer="96" ratio="6" rot="SR0"/>
 </instance>
@@ -2186,25 +2243,33 @@ Warning: This is the KIT version of the AXIAL-0.3 package. This package has a sm
 <attribute name="NAME" x="-44.45" y="58.801" size="1.27" layer="95"/>
 <attribute name="VALUE" x="-44.45" y="54.737" size="0.8128" layer="96"/>
 </instance>
+<instance part="C2" gate="G$1" x="-48.26" y="-25.4" smashed="yes">
+<attribute name="NAME" x="-46.736" y="-22.479" size="1.27" layer="95"/>
+<attribute name="VALUE" x="-46.736" y="-27.559" size="0.8128" layer="96"/>
+</instance>
+<instance part="C1" gate="G$1" x="-101.6" y="-25.4" smashed="yes">
+<attribute name="NAME" x="-100.076" y="-22.479" size="1.27" layer="95"/>
+<attribute name="VALUE" x="-100.076" y="-27.559" size="0.8128" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
 <nets>
 <net name="GND" class="0">
 <segment>
-<pinref part="C2" gate="G$1" pin="2"/>
-<wire x1="-106.68" y1="-27.94" x2="-106.68" y2="-33.02" width="0.1524" layer="91"/>
-<label x="-106.68" y="-33.02" size="1.778" layer="95" rot="R270" xref="yes"/>
+<wire x1="-101.6" y1="-27.94" x2="-101.6" y2="-33.02" width="0.1524" layer="91"/>
+<label x="-101.6" y="-33.02" size="1.778" layer="95" rot="R270" xref="yes"/>
+<pinref part="C1" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="GND"/>
+<pinref part="AZ1117C" gate="G$1" pin="GND"/>
 <wire x1="-74.93" y1="-24.13" x2="-74.93" y2="-33.02" width="0.1524" layer="91"/>
 <label x="-74.93" y="-33.02" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
 <segment>
-<pinref part="C1" gate="G$1" pin="2"/>
-<wire x1="-48.26" y1="-33.02" x2="-48.26" y2="-25.4" width="0.1524" layer="91"/>
+<wire x1="-48.26" y1="-33.02" x2="-48.26" y2="-27.94" width="0.1524" layer="91"/>
 <label x="-48.26" y="-33.02" size="1.778" layer="95" rot="R270" xref="yes"/>
+<pinref part="C2" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <pinref part="CONN" gate="G$1" pin="VOUT-"/>
@@ -2229,12 +2294,12 @@ Warning: This is the KIT version of the AXIAL-0.3 package. This package has a sm
 <wire x1="-45.72" y1="53.34" x2="-45.72" y2="33.02" width="0.1524" layer="91"/>
 <wire x1="-45.72" y1="33.02" x2="-27.94" y2="33.02" width="0.1524" layer="91"/>
 <junction x="2.54" y="33.02"/>
-<pinref part="U2" gate="A" pin="GND"/>
+<pinref part="LM2678" gate="A" pin="GND"/>
 <wire x1="-27.94" y1="33.02" x2="2.54" y2="33.02" width="0.1524" layer="91"/>
 <wire x1="-22.098" y1="68.326" x2="-27.94" y2="68.326" width="0.1524" layer="91"/>
 <wire x1="-27.94" y1="68.326" x2="-27.94" y2="65.786" width="0.1524" layer="91"/>
 <junction x="-27.94" y="33.02"/>
-<pinref part="U2" gate="A" pin="DAP"/>
+<pinref part="LM2678" gate="A" pin="DAP"/>
 <wire x1="-27.94" y1="65.786" x2="-27.94" y2="33.02" width="0.1524" layer="91"/>
 <wire x1="-22.098" y1="65.786" x2="-27.94" y2="65.786" width="0.1524" layer="91"/>
 <junction x="-27.94" y="65.786"/>
@@ -2289,13 +2354,13 @@ Warning: This is the KIT version of the AXIAL-0.3 package. This package has a sm
 </net>
 <net name="3.3V" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="OUTPUT"/>
+<pinref part="AZ1117C" gate="G$1" pin="OUTPUT"/>
 <wire x1="-58.42" y1="-10.414" x2="-48.26" y2="-10.414" width="0.1524" layer="91"/>
-<pinref part="C1" gate="G$1" pin="1"/>
 <wire x1="-48.26" y1="-10.414" x2="-33.02" y2="-10.414" width="0.1524" layer="91"/>
-<wire x1="-48.26" y1="-17.78" x2="-48.26" y2="-10.414" width="0.1524" layer="91"/>
+<wire x1="-48.26" y1="-20.32" x2="-48.26" y2="-10.414" width="0.1524" layer="91"/>
 <junction x="-48.26" y="-10.414"/>
 <label x="-33.02" y="-10.414" size="1.778" layer="95" xref="yes"/>
+<pinref part="C2" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <pinref part="CONN" gate="G$1" pin="VOUT+_3"/>
@@ -2316,13 +2381,13 @@ Warning: This is the KIT version of the AXIAL-0.3 package. This package has a sm
 </net>
 <net name="5.2V" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="INPUT"/>
-<wire x1="-121.666" y1="-10.414" x2="-106.68" y2="-10.414" width="0.1524" layer="91"/>
-<pinref part="C2" gate="G$1" pin="1"/>
-<wire x1="-106.68" y1="-10.414" x2="-91.44" y2="-10.414" width="0.1524" layer="91"/>
-<wire x1="-106.68" y1="-20.32" x2="-106.68" y2="-10.414" width="0.1524" layer="91"/>
-<junction x="-106.68" y="-10.414"/>
-<label x="-121.666" y="-10.414" size="1.778" layer="95" rot="R180" xref="yes"/>
+<pinref part="AZ1117C" gate="G$1" pin="INPUT"/>
+<wire x1="-116.586" y1="-10.414" x2="-101.6" y2="-10.414" width="0.1524" layer="91"/>
+<wire x1="-101.6" y1="-10.414" x2="-91.44" y2="-10.414" width="0.1524" layer="91"/>
+<wire x1="-101.6" y1="-20.32" x2="-101.6" y2="-10.414" width="0.1524" layer="91"/>
+<junction x="-101.6" y="-10.414"/>
+<label x="-116.586" y="-10.414" size="1.778" layer="95" rot="R180" xref="yes"/>
+<pinref part="C1" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <pinref part="CONN" gate="G$1" pin="VOUT+_5"/>
@@ -2364,7 +2429,7 @@ Warning: This is the KIT version of the AXIAL-0.3 package. This package has a sm
 <label x="-101.6" y="-78.74" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U2" gate="A" pin="VIN"/>
+<pinref part="LM2678" gate="A" pin="VIN"/>
 <wire x1="-22.098" y1="73.406" x2="-45.72" y2="73.406" width="0.1524" layer="91"/>
 <wire x1="-45.72" y1="73.406" x2="-45.72" y2="60.96" width="0.1524" layer="91"/>
 <pinref part="CIN" gate="A" pin="1"/>
@@ -2390,7 +2455,7 @@ Warning: This is the KIT version of the AXIAL-0.3 package. This package has a sm
 </net>
 <net name="N$2" class="0">
 <segment>
-<pinref part="U2" gate="A" pin="SW"/>
+<pinref part="LM2678" gate="A" pin="SW"/>
 <pinref part="L1" gate="G$1" pin="1"/>
 <wire x1="26.162" y1="65.786" x2="37.084" y2="65.786" width="0.1524" layer="91"/>
 <wire x1="37.084" y1="65.786" x2="42.926" y2="65.786" width="0.1524" layer="91"/>
@@ -2406,7 +2471,7 @@ Warning: This is the KIT version of the AXIAL-0.3 package. This package has a sm
 </net>
 <net name="N$4" class="0">
 <segment>
-<pinref part="U2" gate="A" pin="BOOST"/>
+<pinref part="LM2678" gate="A" pin="BOOST"/>
 <wire x1="26.162" y1="68.326" x2="26.162" y2="70.358" width="0.1524" layer="91"/>
 <wire x1="26.162" y1="70.358" x2="29.21" y2="70.358" width="0.1524" layer="91"/>
 <pinref part="CB" gate="G$1" pin="1"/>
@@ -2414,7 +2479,7 @@ Warning: This is the KIT version of the AXIAL-0.3 package. This package has a sm
 </net>
 <net name="N$5" class="0">
 <segment>
-<pinref part="U2" gate="A" pin="FB"/>
+<pinref part="LM2678" gate="A" pin="FB"/>
 <wire x1="26.162" y1="73.406" x2="30.48" y2="73.406" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="73.406" x2="30.48" y2="78.486" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="78.486" x2="40.894" y2="78.486" width="0.1524" layer="91"/>

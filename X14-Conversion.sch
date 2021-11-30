@@ -324,218 +324,6 @@
 </deviceset>
 </devicesets>
 </library>
-<library name="LM2678SX-ADJNOPB">
-<packages>
-<package name="SRC14A">
-<smd name="1" x="-2.3" y="2.4" dx="0.8001" dy="0.40005" layer="1" cream="no"/>
-<smd name="2" x="-2.3" y="1.6" dx="0.8001" dy="0.40005" layer="1" cream="no"/>
-<smd name="3" x="-2.3" y="0.8" dx="0.8001" dy="0.40005" layer="1" cream="no"/>
-<smd name="4" x="-2.3" y="0" dx="0.8001" dy="0.40005" layer="1" cream="no"/>
-<smd name="5" x="-2.3" y="-0.799996875" dx="0.8001" dy="0.40005" layer="1" cream="no"/>
-<smd name="6" x="-2.3" y="-1.6" dx="0.8001" dy="0.40005" layer="1" cream="no"/>
-<smd name="7" x="-2.3" y="-2.4" dx="0.8001" dy="0.40005" layer="1" cream="no"/>
-<smd name="8" x="2.3" y="-2.4" dx="0.8001" dy="0.40005" layer="1" rot="R180" cream="no"/>
-<smd name="9" x="2.3" y="-1.6" dx="0.8001" dy="0.40005" layer="1" rot="R180" cream="no"/>
-<smd name="10" x="2.3" y="-0.8" dx="0.8001" dy="0.40005" layer="1" rot="R180" cream="no"/>
-<smd name="11" x="2.3" y="0" dx="0.8001" dy="0.40005" layer="1" rot="R180" cream="no"/>
-<smd name="12" x="2.3" y="0.799996875" dx="0.8001" dy="0.40005" layer="1" rot="R180" cream="no"/>
-<smd name="13" x="2.3" y="1.6" dx="0.8001" dy="0.40005" layer="1" rot="R180" cream="no"/>
-<smd name="14" x="2.3" y="2.4" dx="0.8001" dy="0.40005" layer="1" rot="R180" cream="no"/>
-<smd name="15" x="0" y="0" dx="3.2" dy="5" layer="1" cream="no"/>
-<polygon width="0.0254" layer="31">
-<vertex x="-2.90325" y="2.600025"/>
-<vertex x="-2.90325" y="2.199975"/>
-<vertex x="-2.10315" y="2.199975"/>
-<vertex x="-2.10315" y="2.600025"/>
-</polygon>
-<polygon width="0.0254" layer="31">
-<vertex x="-2.90325" y="1.800025"/>
-<vertex x="-2.90325" y="1.399975"/>
-<vertex x="-2.10315" y="1.399975"/>
-<vertex x="-2.10315" y="1.800025"/>
-</polygon>
-<polygon width="0.0254" layer="31">
-<vertex x="-2.90325" y="1.000025"/>
-<vertex x="-2.90325" y="0.599975"/>
-<vertex x="-2.10315" y="0.599975"/>
-<vertex x="-2.10315" y="1.000025"/>
-</polygon>
-<polygon width="0.0254" layer="31">
-<vertex x="-2.90325" y="0.200025"/>
-<vertex x="-2.90325" y="-0.200025"/>
-<vertex x="-2.10315" y="-0.200025"/>
-<vertex x="-2.10315" y="0.200025"/>
-</polygon>
-<polygon width="0.0254" layer="31">
-<vertex x="-2.90325" y="-0.599971875"/>
-<vertex x="-2.90325" y="-1.000021875"/>
-<vertex x="-2.10315" y="-1.000021875"/>
-<vertex x="-2.10315" y="-0.599971875"/>
-</polygon>
-<polygon width="0.0254" layer="31">
-<vertex x="-2.90325" y="-1.399975"/>
-<vertex x="-2.90325" y="-1.800025"/>
-<vertex x="-2.10315" y="-1.800025"/>
-<vertex x="-2.10315" y="-1.399975"/>
-</polygon>
-<polygon width="0.0254" layer="31">
-<vertex x="-2.90325" y="-2.199975"/>
-<vertex x="-2.90325" y="-2.600025"/>
-<vertex x="-2.10315" y="-2.600025"/>
-<vertex x="-2.10315" y="-2.199975"/>
-</polygon>
-<polygon width="0.0254" layer="31">
-<vertex x="2.10315" y="-2.199975"/>
-<vertex x="2.10315" y="-2.600025"/>
-<vertex x="2.90325" y="-2.600025"/>
-<vertex x="2.90325" y="-2.199975"/>
-</polygon>
-<polygon width="0.0254" layer="31">
-<vertex x="2.10315" y="-1.399975"/>
-<vertex x="2.10315" y="-1.800025"/>
-<vertex x="2.90325" y="-1.800025"/>
-<vertex x="2.90325" y="-1.399975"/>
-</polygon>
-<polygon width="0.0254" layer="31">
-<vertex x="2.10315" y="-0.599975"/>
-<vertex x="2.10315" y="-1.000025"/>
-<vertex x="2.90325" y="-1.000025"/>
-<vertex x="2.90325" y="-0.599975"/>
-</polygon>
-<polygon width="0.0254" layer="31">
-<vertex x="2.10315" y="0.200025"/>
-<vertex x="2.10315" y="-0.200025"/>
-<vertex x="2.90325" y="-0.200025"/>
-<vertex x="2.90325" y="0.200025"/>
-</polygon>
-<polygon width="0.0254" layer="31">
-<vertex x="2.10315" y="1.000021875"/>
-<vertex x="2.10315" y="0.599971875"/>
-<vertex x="2.90325" y="0.599971875"/>
-<vertex x="2.90325" y="1.000021875"/>
-</polygon>
-<polygon width="0.0254" layer="31">
-<vertex x="2.10315" y="1.800025"/>
-<vertex x="2.10315" y="1.399975"/>
-<vertex x="2.90325" y="1.399975"/>
-<vertex x="2.90325" y="1.800025"/>
-</polygon>
-<polygon width="0.0254" layer="31">
-<vertex x="2.10315" y="2.600025"/>
-<vertex x="2.10315" y="2.199975"/>
-<vertex x="2.90325" y="2.199975"/>
-<vertex x="2.90325" y="2.600025"/>
-</polygon>
-<polygon width="0.0254" layer="31">
-<vertex x="-1.49995" y="2.39995"/>
-<vertex x="-1.49995" y="0.09995"/>
-<vertex x="-0.09995" y="0.09995"/>
-<vertex x="-0.09995" y="2.39995"/>
-</polygon>
-<polygon width="0.0254" layer="31">
-<vertex x="-1.49995" y="-0.09995"/>
-<vertex x="-1.49995" y="-2.39995"/>
-<vertex x="-0.09995" y="-2.39995"/>
-<vertex x="-0.09995" y="-0.09995"/>
-</polygon>
-<polygon width="0.0254" layer="31">
-<vertex x="0.09995" y="2.39995"/>
-<vertex x="0.09995" y="0.09995"/>
-<vertex x="1.49995" y="0.09995"/>
-<vertex x="1.49995" y="2.39995"/>
-</polygon>
-<polygon width="0.0254" layer="31">
-<vertex x="0.09995" y="-0.09995"/>
-<vertex x="0.09995" y="-2.39995"/>
-<vertex x="1.49995" y="-2.39995"/>
-<vertex x="1.49995" y="-0.09995"/>
-</polygon>
-<wire x1="-2.794" y1="-3.302" x2="2.794" y2="-3.302" width="0.1524" layer="21"/>
-<wire x1="2.794" y1="-3.302" x2="2.794" y2="-2.921" width="0.1524" layer="21"/>
-<wire x1="2.794" y1="3.302" x2="-2.794" y2="3.302" width="0.1524" layer="21"/>
-<wire x1="-2.794" y1="3.302" x2="-2.794" y2="2.921" width="0.1524" layer="21"/>
-<wire x1="-2.794" y1="-2.921" x2="-2.794" y2="-3.302" width="0.1524" layer="21"/>
-<wire x1="2.794" y1="2.921" x2="2.794" y2="3.302" width="0.1524" layer="21"/>
-<wire x1="-2.032" y1="3.048" x2="-2.54" y2="2.54" width="0.1524" layer="51"/>
-<wire x1="-2.54" y1="-3.048" x2="2.54" y2="-3.048" width="0.1524" layer="51"/>
-<wire x1="2.54" y1="-3.048" x2="2.54" y2="3.048" width="0.1524" layer="51"/>
-<wire x1="2.54" y1="3.048" x2="-2.54" y2="3.048" width="0.1524" layer="51"/>
-<wire x1="-2.54" y1="3.048" x2="-2.54" y2="-3.048" width="0.1524" layer="51"/>
-<text x="-3.2766" y="4.445" size="1.27" layer="25" ratio="6" rot="SR0">&gt;Name</text>
-<text x="-2.9972" y="-5.715" size="1.27" layer="27" ratio="6" rot="SR0">&gt;Value</text>
-<wire x1="-3.175" y1="3.556" x2="3.175" y2="3.556" width="0.1524" layer="39"/>
-<wire x1="3.175" y1="3.556" x2="3.175" y2="-3.556" width="0.1524" layer="39"/>
-<wire x1="3.175" y1="-3.556" x2="-3.175" y2="-3.556" width="0.1524" layer="39"/>
-<wire x1="-3.175" y1="-3.556" x2="-3.175" y2="3.556" width="0.1524" layer="39"/>
-</package>
-</packages>
-<symbols>
-<symbol name="LM2678SD-12">
-<pin name="NC_2" x="28.702" y="-12.954" length="middle" direction="pas" rot="R180"/>
-<pin name="VIN_2" x="-19.558" y="-10.414" length="middle" direction="in"/>
-<pin name="VIN" x="-19.558" y="7.366" length="middle" direction="in"/>
-<pin name="BOOST" x="28.702" y="2.286" length="middle" direction="pas" rot="R180"/>
-<pin name="NC_3" x="28.702" y="-15.494" length="middle" direction="pas" rot="R180"/>
-<pin name="NC_4" x="-19.558" y="-12.954" length="middle" direction="pas"/>
-<pin name="FB" x="28.702" y="7.366" length="middle" direction="pas" rot="R180"/>
-<pin name="ON/~OFF" x="-19.558" y="-7.874" length="middle" direction="pas"/>
-<pin name="GND" x="-19.558" y="2.286" length="middle" direction="pas"/>
-<pin name="NC_5" x="-19.558" y="-15.494" length="middle" direction="pas"/>
-<pin name="NC" x="28.702" y="-10.414" length="middle" direction="pas" rot="R180"/>
-<pin name="SW_2" x="28.702" y="-5.334" length="middle" direction="out" rot="R180"/>
-<pin name="SW_3" x="28.702" y="-7.874" length="middle" direction="out" rot="R180"/>
-<pin name="SW" x="28.702" y="-0.254" length="middle" direction="out" rot="R180"/>
-<pin name="DAP" x="-19.558" y="-0.254" length="middle" direction="pas"/>
-<wire x1="-14.478" y1="9.906" x2="-14.478" y2="-18.034" width="0.1524" layer="94"/>
-<wire x1="-14.478" y1="-18.034" x2="23.622" y2="-18.034" width="0.1524" layer="94"/>
-<wire x1="23.622" y1="-18.034" x2="23.622" y2="9.906" width="0.1524" layer="94"/>
-<wire x1="23.622" y1="9.906" x2="-14.478" y2="9.906" width="0.1524" layer="94"/>
-<text x="-0.9144" y="13.9446" size="2.0828" layer="95" ratio="6" rot="SR0">&gt;Name</text>
-<text x="-0.7874" y="11.4046" size="2.0828" layer="96" ratio="6" rot="SR0">&gt;Value</text>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="LM2678SD-ADJ/NOPB" prefix="U">
-<gates>
-<gate name="A" symbol="LM2678SD-12" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="SRC14A">
-<connects>
-<connect gate="A" pin="BOOST" pad="4"/>
-<connect gate="A" pin="DAP" pad="15"/>
-<connect gate="A" pin="FB" pad="7"/>
-<connect gate="A" pin="GND" pad="9"/>
-<connect gate="A" pin="NC" pad="11"/>
-<connect gate="A" pin="NC_2" pad="1"/>
-<connect gate="A" pin="NC_3" pad="5"/>
-<connect gate="A" pin="NC_4" pad="6"/>
-<connect gate="A" pin="NC_5" pad="10"/>
-<connect gate="A" pin="ON/~OFF" pad="8"/>
-<connect gate="A" pin="SW" pad="14"/>
-<connect gate="A" pin="SW_2" pad="12"/>
-<connect gate="A" pin="SW_3" pad="13"/>
-<connect gate="A" pin="VIN" pad="3"/>
-<connect gate="A" pin="VIN_2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="COPYRIGHT" value="Copyright (C) 2021 Ultra Librarian. All rights reserved." constant="no"/>
-<attribute name="DIGI-KEY_PART_NUMBER_1" value="2156-LM2678SD-ADJ/NOPB-ND" constant="no"/>
-<attribute name="DIGI-KEY_PART_NUMBER_2" value="2156-LM2678SD-ADJ/NOPB-TI-ND" constant="no"/>
-<attribute name="DIGI-KEY_PART_NUMBER_3" value="LM2678SD-ADJ/NOPBCT-ND" constant="no"/>
-<attribute name="DIGI-KEY_PART_NUMBER_4" value="LM2678SD-ADJ/NOPBDKR-ND" constant="no"/>
-<attribute name="DIGI-KEY_PART_NUMBER_5" value="LM2678SD-ADJ/NOPBTR-ND" constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="LM2678SD-ADJ/NOPB" constant="no"/>
-<attribute name="MFR_NAME" value="Texas Instruments" constant="no"/>
-<attribute name="TYPE" value="LM2678SD-12" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="AZ1117C-3.3">
 <packages>
 <package name="SOT150P410X160-3N">
@@ -1857,6 +1645,94 @@ Warning: This is the KIT version of the AXIAL-0.3 package. This package has a sm
 </deviceset>
 </devicesets>
 </library>
+<library name="BUCK, LM2678S-ADJ">
+<packages>
+<package name="TO127P1435X464-8N">
+<wire x1="5.08" y1="6.065" x2="5.08" y2="-2.575" width="0.127" layer="51"/>
+<text x="-6.06" y="8.04" size="1.27" layer="25">&gt;NAME</text>
+<text x="-6.06" y="-9.4" size="1.27" layer="27">&gt;VALUE</text>
+<wire x1="-5.08" y1="6.065" x2="5.08" y2="6.065" width="0.127" layer="51"/>
+<wire x1="-5.08" y1="-2.575" x2="5.08" y2="-2.575" width="0.127" layer="51"/>
+<wire x1="-5.54" y1="7.84" x2="5.54" y2="7.84" width="0.05" layer="39"/>
+<wire x1="5.54" y1="7.84" x2="5.54" y2="-7.84" width="0.05" layer="39"/>
+<wire x1="5.54" y1="-7.84" x2="-5.54" y2="-7.84" width="0.05" layer="39"/>
+<wire x1="-5.54" y1="-7.84" x2="-5.54" y2="7.84" width="0.05" layer="39"/>
+<wire x1="-5.08" y1="-2.575" x2="-5.08" y2="6.065" width="0.127" layer="51"/>
+<rectangle x1="-1.51" y1="4.915" x2="-0.25" y2="6.825" layer="31"/>
+<rectangle x1="-1.51" y1="1.495" x2="-0.25" y2="3.405" layer="31"/>
+<rectangle x1="0.25" y1="4.915" x2="1.51" y2="6.825" layer="31"/>
+<rectangle x1="0.25" y1="1.495" x2="1.51" y2="3.405" layer="31"/>
+<rectangle x1="-3.27" y1="4.915" x2="-2.01" y2="6.825" layer="31"/>
+<rectangle x1="-5.03" y1="4.915" x2="-3.77" y2="6.825" layer="31"/>
+<rectangle x1="-3.27" y1="1.495" x2="-2.01" y2="3.405" layer="31"/>
+<rectangle x1="-5.03" y1="1.495" x2="-3.77" y2="3.405" layer="31"/>
+<rectangle x1="2.01" y1="1.495" x2="3.27" y2="3.405" layer="31"/>
+<rectangle x1="2.01" y1="4.915" x2="3.27" y2="6.825" layer="31"/>
+<rectangle x1="3.77" y1="4.915" x2="5.03" y2="6.825" layer="31"/>
+<rectangle x1="3.77" y1="1.495" x2="5.03" y2="3.405" layer="31"/>
+<circle x="-5" y="-6.3" radius="0.1" width="0.2" layer="21"/>
+<circle x="-5" y="-6.3" radius="0.1" width="0.2" layer="51"/>
+<wire x1="-5.08" y1="0.3" x2="-5.08" y2="-2.575" width="0.127" layer="21"/>
+<wire x1="-5.08" y1="-2.575" x2="5.08" y2="-2.575" width="0.127" layer="21"/>
+<wire x1="5.08" y1="-2.575" x2="5.08" y2="0.3" width="0.127" layer="21"/>
+<smd name="1" x="-3.81" y="-6.19" dx="0.89" dy="2.79" layer="1"/>
+<smd name="2" x="-2.54" y="-6.19" dx="0.89" dy="2.79" layer="1"/>
+<smd name="3" x="-1.27" y="-6.19" dx="0.89" dy="2.79" layer="1"/>
+<smd name="4" x="0" y="-6.19" dx="0.89" dy="2.79" layer="1"/>
+<smd name="5" x="1.27" y="-6.19" dx="0.89" dy="2.79" layer="1"/>
+<smd name="6" x="2.54" y="-6.19" dx="0.89" dy="2.79" layer="1"/>
+<smd name="7" x="3.81" y="-6.19" dx="0.89" dy="2.79" layer="1"/>
+<smd name="8" x="0" y="4.16" dx="10.58" dy="6.84" layer="1" cream="no"/>
+</package>
+</packages>
+<symbols>
+<symbol name="LM2678S-ADJ">
+<wire x1="-12.7" y1="10.16" x2="12.7" y2="10.16" width="0.41" layer="94"/>
+<wire x1="12.7" y1="10.16" x2="12.7" y2="-10.16" width="0.41" layer="94"/>
+<wire x1="12.7" y1="-10.16" x2="-12.7" y2="-10.16" width="0.41" layer="94"/>
+<wire x1="-12.7" y1="-10.16" x2="-12.7" y2="10.16" width="0.41" layer="94"/>
+<text x="-12.7" y="11.16" size="2.0828" layer="95" ratio="10" rot="SR0">&gt;NAME</text>
+<text x="-12.7" y="-14.16" size="2.0828" layer="96" ratio="10" rot="SR0">&gt;VALUE</text>
+<pin name="BOOST" x="17.78" y="2.54" length="middle" direction="in" rot="R180"/>
+<pin name="FB" x="17.78" y="7.62" length="middle" direction="in" rot="R180"/>
+<pin name="ON/~OFF" x="17.78" y="-7.62" length="middle" direction="in" rot="R180"/>
+<pin name="VIN" x="-17.78" y="7.62" length="middle" direction="in"/>
+<pin name="SW" x="17.78" y="0" length="middle" direction="out" rot="R180"/>
+<pin name="GND" x="-17.78" y="2.54" length="middle" direction="pwr"/>
+<pin name="NC" x="-17.78" y="-7.62" length="middle"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="BUCK,LM2678S-ADJ" prefix="U">
+<gates>
+<gate name="A" symbol="LM2678S-ADJ" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="TO127P1435X464-8N">
+<connects>
+<connect gate="A" pin="BOOST" pad="3"/>
+<connect gate="A" pin="FB" pad="6"/>
+<connect gate="A" pin="GND" pad="4 8"/>
+<connect gate="A" pin="NC" pad="5"/>
+<connect gate="A" pin="ON/~OFF" pad="7"/>
+<connect gate="A" pin="SW" pad="1"/>
+<connect gate="A" pin="VIN" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value=" 8V to 40V, 5A SIMPLE SWITCHER buck converter with high efficiency 7-DDPAK/TO-263 -40 to 125 "/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="2156-LM2678S-ADJ/NOPB-TI-ND"/>
+<attribute name="MF" value="Texas Instruments"/>
+<attribute name="MP" value="LM2678S-ADJ"/>
+<attribute name="PACKAGE" value="TO-263-7 Texas Instruments"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/LM2678S-ADJ/?ref=eda"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -1871,7 +1747,6 @@ Warning: This is the KIT version of the AXIAL-0.3 package. This package has a sm
 <part name="COUT" library="16SVP180MX" deviceset="16SVP180MX" device="" value="180uF 30mΩ"/>
 <part name="FRAME1" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A3L-LOC" device=""/>
 <part name="AZ1117C" library="AZ1117C-3.3" deviceset="SOT150P410X160-3N" device="" value="AZ1117C-3.3"/>
-<part name="LM2678" library="LM2678SX-ADJNOPB" deviceset="LM2678SD-ADJ/NOPB" device=""/>
 <part name="U$2" library="testpoints" deviceset="3.3V_TESTPOINT" device=""/>
 <part name="U$3" library="testpoints" deviceset="5.2V_TESTPOINT" device=""/>
 <part name="U$4" library="testpoints" deviceset="12V_TESTPOINT" device=""/>
@@ -1891,6 +1766,7 @@ Warning: This is the KIT version of the AXIAL-0.3 package. This package has a sm
 <part name="CIN" library="20SVPF120M" deviceset="20SVPF120M" device="" value="120uF 25mΩ"/>
 <part name="C3" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="0.1UF" device="-0603-25V-(+80/-20%)" package3d_urn="urn:adsk.eagle:package:37414/1" value="0.1uF"/>
 <part name="CONN" library="CONN, Distribution-Conversion (3)" deviceset="CONVERSION-DISTRIBUTION" device=""/>
+<part name="U1" library="BUCK, LM2678S-ADJ" deviceset="BUCK,LM2678S-ADJ" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -1917,10 +1793,6 @@ Warning: This is the KIT version of the AXIAL-0.3 package. This package has a sm
 <attribute name="SHEET" x="179.705" y="-111.76" size="2.54" layer="94"/>
 </instance>
 <instance part="AZ1117C" gate="G$1" x="-75.692" y="-10.668" smashed="yes"/>
-<instance part="LM2678" gate="A" x="-2.54" y="66.04" smashed="yes">
-<attribute name="NAME" x="-13.6144" y="79.9846" size="2.0828" layer="95" ratio="6" rot="SR0" display="off"/>
-<attribute name="VALUE" x="-13.4874" y="77.4446" size="2.0828" layer="96" ratio="6" rot="SR0"/>
-</instance>
 <instance part="U$2" gate="G$1" x="17.78" y="-2.54" smashed="yes"/>
 <instance part="U$3" gate="G$1" x="17.78" y="-12.7" smashed="yes"/>
 <instance part="U$4" gate="G$1" x="17.78" y="-22.86" smashed="yes"/>
@@ -1978,6 +1850,10 @@ Warning: This is the KIT version of the AXIAL-0.3 package. This package has a sm
 <instance part="CONN" gate="G$1" x="-81.28" y="-81.28" smashed="yes">
 <attribute name="NAME" x="-88.9" y="-73.66" size="1.778" layer="95"/>
 </instance>
+<instance part="U1" gate="A" x="1.524" y="65.786" smashed="yes">
+<attribute name="NAME" x="-11.176" y="76.946" size="2.0828" layer="95" ratio="10" rot="SR0" display="off"/>
+<attribute name="VALUE" x="-11.176" y="51.626" size="2.0828" layer="96" ratio="10" rot="SR0"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -2010,15 +1886,9 @@ Warning: This is the KIT version of the AXIAL-0.3 package. This package has a sm
 <wire x1="-45.72" y1="53.34" x2="-45.72" y2="33.02" width="0.1524" layer="91"/>
 <wire x1="-45.72" y1="33.02" x2="-27.94" y2="33.02" width="0.1524" layer="91"/>
 <junction x="2.54" y="33.02"/>
-<pinref part="LM2678" gate="A" pin="GND"/>
 <wire x1="-27.94" y1="33.02" x2="2.54" y2="33.02" width="0.1524" layer="91"/>
-<wire x1="-22.098" y1="68.326" x2="-27.94" y2="68.326" width="0.1524" layer="91"/>
-<wire x1="-27.94" y1="68.326" x2="-27.94" y2="65.786" width="0.1524" layer="91"/>
 <junction x="-27.94" y="33.02"/>
-<pinref part="LM2678" gate="A" pin="DAP"/>
-<wire x1="-27.94" y1="65.786" x2="-27.94" y2="33.02" width="0.1524" layer="91"/>
-<wire x1="-22.098" y1="65.786" x2="-27.94" y2="65.786" width="0.1524" layer="91"/>
-<junction x="-27.94" y="65.786"/>
+<wire x1="-27.94" y1="68.326" x2="-27.94" y2="33.02" width="0.1524" layer="91"/>
 <wire x1="-45.72" y1="33.02" x2="-66.04" y2="33.02" width="0.1524" layer="91"/>
 <wire x1="-66.04" y1="33.02" x2="-66.04" y2="53.34" width="0.1524" layer="91"/>
 <junction x="-45.72" y="33.02"/>
@@ -2029,6 +1899,8 @@ Warning: This is the KIT version of the AXIAL-0.3 package. This package has a sm
 <pinref part="D1" gate="A" pin="2"/>
 <pinref part="CIN" gate="G$1" pin="2"/>
 <pinref part="C3" gate="G$1" pin="2"/>
+<pinref part="U1" gate="A" pin="GND"/>
+<wire x1="-27.94" y1="68.326" x2="-16.256" y2="68.326" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="50.8" y1="88.9" x2="79.756" y2="88.9" width="0.1524" layer="91"/>
@@ -2154,8 +2026,7 @@ Warning: This is the KIT version of the AXIAL-0.3 package. This package has a sm
 </net>
 <net name="12V" class="0">
 <segment>
-<pinref part="LM2678" gate="A" pin="VIN"/>
-<wire x1="-22.098" y1="73.406" x2="-45.72" y2="73.406" width="0.1524" layer="91"/>
+<wire x1="-16.256" y1="73.406" x2="-45.72" y2="73.406" width="0.1524" layer="91"/>
 <wire x1="-45.72" y1="73.406" x2="-45.72" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="-66.04" y1="60.96" x2="-66.04" y2="73.406" width="0.1524" layer="91"/>
 <wire x1="-66.04" y1="73.406" x2="-45.72" y2="73.406" width="0.1524" layer="91"/>
@@ -2165,6 +2036,7 @@ Warning: This is the KIT version of the AXIAL-0.3 package. This package has a sm
 <label x="-75.692" y="73.406" size="1.778" layer="95" rot="R180" xref="yes"/>
 <pinref part="CINX" gate="G$1" pin="1"/>
 <pinref part="CIN" gate="G$1" pin="1"/>
+<pinref part="U1" gate="A" pin="VIN"/>
 </segment>
 <segment>
 <pinref part="U$4" gate="G$1" pin="12V"/>
@@ -2185,9 +2057,8 @@ Warning: This is the KIT version of the AXIAL-0.3 package. This package has a sm
 </net>
 <net name="N$2" class="0">
 <segment>
-<pinref part="LM2678" gate="A" pin="SW"/>
 <pinref part="L1" gate="G$1" pin="1"/>
-<wire x1="26.162" y1="65.786" x2="37.084" y2="65.786" width="0.1524" layer="91"/>
+<wire x1="19.304" y1="65.786" x2="37.084" y2="65.786" width="0.1524" layer="91"/>
 <wire x1="37.084" y1="65.786" x2="42.926" y2="65.786" width="0.1524" layer="91"/>
 <wire x1="42.926" y1="65.786" x2="46.99" y2="65.786" width="0.1524" layer="91"/>
 <wire x1="36.83" y1="70.358" x2="42.926" y2="70.358" width="0.1524" layer="91"/>
@@ -2197,20 +2068,20 @@ Warning: This is the KIT version of the AXIAL-0.3 package. This package has a sm
 <junction x="37.084" y="65.786"/>
 <pinref part="CB" gate="G$1" pin="2"/>
 <pinref part="D1" gate="A" pin="1"/>
+<pinref part="U1" gate="A" pin="SW"/>
 </segment>
 </net>
 <net name="N$4" class="0">
 <segment>
-<pinref part="LM2678" gate="A" pin="BOOST"/>
 <wire x1="26.162" y1="68.326" x2="26.162" y2="70.358" width="0.1524" layer="91"/>
 <wire x1="26.162" y1="70.358" x2="29.21" y2="70.358" width="0.1524" layer="91"/>
 <pinref part="CB" gate="G$1" pin="1"/>
+<pinref part="U1" gate="A" pin="BOOST"/>
+<wire x1="26.162" y1="68.326" x2="19.304" y2="68.326" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$5" class="0">
 <segment>
-<pinref part="LM2678" gate="A" pin="FB"/>
-<wire x1="26.162" y1="73.406" x2="30.48" y2="73.406" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="73.406" x2="30.48" y2="78.486" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="78.486" x2="40.894" y2="78.486" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="78.486" x2="30.48" y2="88.9" width="0.1524" layer="91"/>
@@ -2218,6 +2089,8 @@ Warning: This is the KIT version of the AXIAL-0.3 package. This package has a sm
 <junction x="30.48" y="78.486"/>
 <pinref part="RFB1" gate="G$1" pin="1"/>
 <pinref part="RFB2" gate="G$1" pin="1"/>
+<pinref part="U1" gate="A" pin="FB"/>
+<wire x1="30.48" y1="73.406" x2="19.304" y2="73.406" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

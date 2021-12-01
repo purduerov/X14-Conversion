@@ -1468,7 +1468,6 @@ Warning: This is the KIT version of the AXIAL-0.3 package. This package has a sm
 <wire x1="-6.35" y1="-0.508" x2="-5.588" y2="-0.762" width="0.1524" layer="51"/>
 <wire x1="-6.35" y1="-0.508" x2="-5.588" y2="-0.635" width="0.1524" layer="51"/>
 <wire x1="-5.588" y1="0.127" x2="-5.588" y2="-1.143" width="0.1524" layer="51"/>
-<text x="-1.651" y="3.429" size="1.27" layer="25">D1</text>
 <wire x1="-4.064" y1="2.794" x2="3.556" y2="2.794" width="0.1524" layer="39"/>
 <wire x1="3.556" y1="2.794" x2="3.556" y2="1.27" width="0.1524" layer="39"/>
 <wire x1="3.556" y1="1.27" x2="4.699" y2="1.27" width="0.1524" layer="39"/>

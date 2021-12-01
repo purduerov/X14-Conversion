@@ -954,6 +954,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </polygon>
 <contactref element="U1" pad="8"/>
 <contactref element="U1" pad="4"/>
+<wire x1="17.729" y1="21.692" x2="20.193" y2="19.569" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="3.3V">
 <contactref element="AZ1117C" pad="2"/>
@@ -966,7 +967,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="17.629" y1="20.193" x2="18.176" y2="20.74" width="0.3048" layer="16"/>
 <wire x1="18.176" y1="20.74" x2="22.352" y2="20.74" width="0.3048" layer="16"/>
 <wire x1="14.859" y1="20.193" x2="17.629" y2="20.193" width="0.4064" layer="16"/>
-<polygon width="0.3048" layer="16">
+<polygon width="0.3048" layer="16" isolate="0.3048">
 <vertex x="16.383" y="10.414"/>
 <vertex x="16.383" y="37.846"/>
 <vertex x="0.127" y="37.846"/>

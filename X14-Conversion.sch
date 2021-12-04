@@ -1771,11 +1771,11 @@ Warning: This is the KIT version of the AXIAL-0.3 package. This package has a sm
 <sheet>
 <plain>
 <text x="-104.14" y="-5.08" size="3.81" layer="95"></text>
-<text x="-68.58" y="99.06" size="3.81" layer="95">Buck Converter 12V - 5.2V</text>
-<text x="50.8" y="15.24" size="3.81" layer="95">Connectors to Power Distribution</text>
+<text x="-68.58" y="96.52" size="3.81" layer="95">Buck Converter 12V - 5.2V</text>
+<text x="40.64" y="12.7" size="3.81" layer="95">Connectors to Power Distribution</text>
 <text x="-109.22" y="2.54" size="3.81" layer="95">Linear Regulator 5.2V - 3.3V</text>
 <text x="-10.16" y="15.24" size="3.81" layer="95">Test Points</text>
-<text x="81.28" y="91.44" size="3.81" layer="95">Screw Terminals</text>
+<text x="76.2" y="88.9" size="3.81" layer="95">Screw Terminals</text>
 </plain>
 <instances>
 <instance part="L1" gate="G$1" x="6.35" y="65.786" smashed="yes">
@@ -1798,17 +1798,17 @@ Warning: This is the KIT version of the AXIAL-0.3 package. This package has a sm
 <instance part="U$5" gate="G$1" x="-7.62" y="-25.4" smashed="yes"/>
 <instance part="U$6" gate="G$1" x="-7.62" y="-35.56" smashed="yes"/>
 <instance part="U$7" gate="G$1" x="-7.62" y="-45.72" smashed="yes"/>
-<instance part="P1" gate="G$1" x="83.82" y="81.28" smashed="yes" rot="R180">
-<attribute name="NAME" x="86.360559375" y="78.73618125" size="1.271909375" layer="95" rot="R180"/>
-<attribute name="VALUE" x="86.36236875" y="87.654509375" size="1.274909375" layer="96" rot="R180"/>
+<instance part="P1" gate="G$1" x="78.74" y="78.74" smashed="yes" rot="R180">
+<attribute name="NAME" x="81.280559375" y="76.19618125" size="1.271909375" layer="95" rot="R180"/>
+<attribute name="VALUE" x="81.28236875" y="85.114509375" size="1.274909375" layer="96" rot="R180"/>
 </instance>
-<instance part="P2" gate="G$1" x="83.82" y="68.58" smashed="yes" rot="R180">
-<attribute name="NAME" x="86.360559375" y="66.03618125" size="1.271909375" layer="95" rot="R180"/>
-<attribute name="VALUE" x="86.36236875" y="74.954509375" size="1.274909375" layer="96" rot="R180"/>
+<instance part="P2" gate="G$1" x="78.74" y="66.04" smashed="yes" rot="R180">
+<attribute name="NAME" x="81.280559375" y="63.49618125" size="1.271909375" layer="95" rot="R180"/>
+<attribute name="VALUE" x="81.28236875" y="72.414509375" size="1.274909375" layer="96" rot="R180"/>
 </instance>
-<instance part="P3" gate="G$1" x="83.82" y="55.88" smashed="yes" rot="R180">
-<attribute name="NAME" x="86.360559375" y="53.33618125" size="1.271909375" layer="95" rot="R180"/>
-<attribute name="VALUE" x="86.36236875" y="62.254509375" size="1.274909375" layer="96" rot="R180"/>
+<instance part="P3" gate="G$1" x="78.74" y="53.34" smashed="yes" rot="R180">
+<attribute name="NAME" x="81.280559375" y="50.79618125" size="1.271909375" layer="95" rot="R180"/>
+<attribute name="VALUE" x="81.28236875" y="59.714509375" size="1.274909375" layer="96" rot="R180"/>
 </instance>
 <instance part="RFB2" gate="G$1" x="5.334" y="78.486" smashed="yes">
 <attribute name="NAME" x="5.334" y="80.01" size="1.27" layer="95" align="bottom-center"/>
@@ -1846,8 +1846,8 @@ Warning: This is the KIT version of the AXIAL-0.3 package. This package has a sm
 <attribute name="NAME" x="48.514" y="49.911" size="1.27" layer="95"/>
 <attribute name="VALUE" x="48.514" y="48.387" size="0.8128" layer="96"/>
 </instance>
-<instance part="CONN" gate="G$1" x="86.36" y="0" smashed="yes">
-<attribute name="NAME" x="78.74" y="7.62" size="1.778" layer="95"/>
+<instance part="CONN" gate="G$1" x="76.2" y="-2.54" smashed="yes">
+<attribute name="NAME" x="68.58" y="5.08" size="1.778" layer="95"/>
 </instance>
 <instance part="U1" gate="A" x="-39.116" y="65.786" smashed="yes">
 <attribute name="NAME" x="-51.816" y="76.946" size="2.0828" layer="95" ratio="10" rot="SR0" display="off"/>
@@ -1923,31 +1923,31 @@ Warning: This is the KIT version of the AXIAL-0.3 package. This package has a sm
 </segment>
 <segment>
 <pinref part="P2" gate="G$1" pin="1"/>
-<wire x1="91.44" y1="68.58" x2="91.44" y2="66.04" width="0.1524" layer="91"/>
-<wire x1="91.44" y1="66.04" x2="104.14" y2="66.04" width="0.1524" layer="91"/>
-<label x="104.14" y="66.04" size="1.778" layer="95" xref="yes"/>
+<wire x1="86.36" y1="66.04" x2="86.36" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="86.36" y1="63.5" x2="99.06" y2="63.5" width="0.1524" layer="91"/>
+<label x="99.06" y="63.5" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="P3" gate="G$1" pin="1"/>
-<wire x1="91.44" y1="55.88" x2="91.44" y2="53.34" width="0.1524" layer="91"/>
-<wire x1="91.44" y1="53.34" x2="104.14" y2="53.34" width="0.1524" layer="91"/>
-<label x="104.14" y="53.34" size="1.778" layer="95" xref="yes"/>
+<wire x1="86.36" y1="53.34" x2="86.36" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="86.36" y1="50.8" x2="99.06" y2="50.8" width="0.1524" layer="91"/>
+<label x="99.06" y="50.8" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="91.44" y1="78.74" x2="104.14" y2="78.74" width="0.1524" layer="91"/>
-<label x="104.14" y="78.74" size="1.778" layer="95" xref="yes"/>
+<wire x1="86.36" y1="76.2" x2="99.06" y2="76.2" width="0.1524" layer="91"/>
+<label x="99.06" y="76.2" size="1.778" layer="95" xref="yes"/>
 <pinref part="P1" gate="G$1" pin="1"/>
-<wire x1="91.44" y1="78.74" x2="91.44" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="86.36" y1="76.2" x2="86.36" y2="78.74" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="CONN" gate="G$1" pin="VIN-"/>
-<wire x1="73.66" y1="0" x2="63.5" y2="0" width="0.1524" layer="91"/>
-<label x="63.5" y="0" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="63.5" y1="-2.54" x2="53.34" y2="-2.54" width="0.1524" layer="91"/>
+<label x="53.34" y="-2.54" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="CONN" gate="G$1" pin="VOUT-"/>
-<wire x1="104.14" y1="-4.572" x2="114.3" y2="-4.572" width="0.1524" layer="91"/>
-<label x="114.3" y="-4.572" size="1.778" layer="95" xref="yes"/>
+<wire x1="93.98" y1="-7.112" x2="104.14" y2="-7.112" width="0.1524" layer="91"/>
+<label x="104.14" y="-7.112" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="3.3V" class="0">
@@ -1970,14 +1970,14 @@ Warning: This is the KIT version of the AXIAL-0.3 package. This package has a sm
 </segment>
 <segment>
 <pinref part="P1" gate="G$1" pin="2"/>
-<wire x1="91.44" y1="83.82" x2="91.44" y2="86.36" width="0.1524" layer="91"/>
-<wire x1="91.44" y1="86.36" x2="104.14" y2="86.36" width="0.1524" layer="91"/>
-<label x="104.14" y="86.36" size="1.778" layer="95" xref="yes"/>
+<wire x1="86.36" y1="81.28" x2="86.36" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="86.36" y1="83.82" x2="99.06" y2="83.82" width="0.1524" layer="91"/>
+<label x="99.06" y="83.82" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="CONN" gate="G$1" pin="VOUT+_3"/>
-<wire x1="104.14" y1="0" x2="114.3" y2="0" width="0.1524" layer="91"/>
-<label x="114.3" y="0" size="1.778" layer="95" xref="yes"/>
+<wire x1="93.98" y1="-2.54" x2="104.14" y2="-2.54" width="0.1524" layer="91"/>
+<label x="104.14" y="-2.54" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="5.2V" class="0">
@@ -1998,8 +1998,8 @@ Warning: This is the KIT version of the AXIAL-0.3 package. This package has a sm
 <wire x1="10.414" y1="78.486" x2="25.654" y2="78.486" width="0.1524" layer="91"/>
 <wire x1="25.654" y1="78.486" x2="25.654" y2="65.786" width="0.1524" layer="91"/>
 <junction x="25.654" y="65.786"/>
-<label x="61.722" y="65.786" size="1.778" layer="95" xref="yes"/>
-<wire x1="61.722" y1="65.786" x2="45.72" y2="65.786" width="0.1524" layer="91"/>
+<label x="56.642" y="65.786" size="1.778" layer="95" xref="yes"/>
+<wire x1="56.642" y1="65.786" x2="45.72" y2="65.786" width="0.1524" layer="91"/>
 <wire x1="45.72" y1="65.786" x2="25.654" y2="65.786" width="0.1524" layer="91"/>
 <wire x1="45.72" y1="53.34" x2="45.72" y2="65.786" width="0.1524" layer="91"/>
 <junction x="45.72" y="65.786"/>
@@ -2012,15 +2012,15 @@ Warning: This is the KIT version of the AXIAL-0.3 package. This package has a sm
 <label x="7.62" y="-5.08" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="91.44" y1="73.66" x2="104.14" y2="73.66" width="0.1524" layer="91"/>
-<label x="104.14" y="73.66" size="1.778" layer="95" xref="yes"/>
+<wire x1="86.36" y1="71.12" x2="99.06" y2="71.12" width="0.1524" layer="91"/>
+<label x="99.06" y="71.12" size="1.778" layer="95" xref="yes"/>
 <pinref part="P2" gate="G$1" pin="2"/>
-<wire x1="91.44" y1="71.12" x2="91.44" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="86.36" y1="68.58" x2="86.36" y2="71.12" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="CONN" gate="G$1" pin="VOUT+_5"/>
-<wire x1="104.14" y1="5.08" x2="114.3" y2="5.08" width="0.1524" layer="91"/>
-<label x="114.3" y="5.08" size="1.778" layer="95" xref="yes"/>
+<wire x1="93.98" y1="2.54" x2="104.14" y2="2.54" width="0.1524" layer="91"/>
+<label x="104.14" y="2.54" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="12V" class="0">
@@ -2030,9 +2030,9 @@ Warning: This is the KIT version of the AXIAL-0.3 package. This package has a sm
 <wire x1="-106.68" y1="60.96" x2="-106.68" y2="73.406" width="0.1524" layer="91"/>
 <wire x1="-106.68" y1="73.406" x2="-86.36" y2="73.406" width="0.1524" layer="91"/>
 <junction x="-86.36" y="73.406"/>
-<wire x1="-106.68" y1="73.406" x2="-116.332" y2="73.406" width="0.1524" layer="91"/>
+<wire x1="-106.68" y1="73.406" x2="-113.792" y2="73.406" width="0.1524" layer="91"/>
 <junction x="-106.68" y="73.406"/>
-<label x="-116.332" y="73.406" size="1.778" layer="95" rot="R180" xref="yes"/>
+<label x="-113.792" y="73.406" size="1.778" layer="95" rot="R180" xref="yes"/>
 <pinref part="CINX" gate="G$1" pin="1"/>
 <pinref part="CIN" gate="G$1" pin="1"/>
 <pinref part="U1" gate="A" pin="VIN"/>
@@ -2043,15 +2043,15 @@ Warning: This is the KIT version of the AXIAL-0.3 package. This package has a sm
 <label x="7.62" y="-15.24" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="91.44" y1="60.96" x2="104.14" y2="60.96" width="0.1524" layer="91"/>
-<label x="104.14" y="60.96" size="1.778" layer="95" xref="yes"/>
+<wire x1="86.36" y1="58.42" x2="99.06" y2="58.42" width="0.1524" layer="91"/>
+<label x="99.06" y="58.42" size="1.778" layer="95" xref="yes"/>
 <pinref part="P3" gate="G$1" pin="2"/>
-<wire x1="91.44" y1="60.96" x2="91.44" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="86.36" y1="58.42" x2="86.36" y2="55.88" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="CONN" gate="G$1" pin="VIN+"/>
-<wire x1="73.66" y1="5.08" x2="63.5" y2="5.08" width="0.1524" layer="91"/>
-<label x="63.5" y="5.08" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="63.5" y1="2.54" x2="53.34" y2="2.54" width="0.1524" layer="91"/>
+<label x="53.34" y="2.54" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="N$2" class="0">

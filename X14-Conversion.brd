@@ -183,11 +183,11 @@
 <text x="7.874" y="0.762" size="1.016" layer="25">3.3V</text>
 <text x="19.558" y="0.762" size="1.016" layer="25">5.2V</text>
 <text x="3.683" y="74.422" size="1.016" layer="25">12V</text>
-<text x="43.434" y="47.498" size="1.016" layer="21">12V</text>
-<text x="43.307" y="1.778" size="1.016" layer="21">5.2V</text>
-<text x="43.18" y="19.939" size="1.016" layer="21">3.3V</text>
-<text x="42.926" y="36.322" size="1.016" layer="21">GND</text>
-<text x="2.921" y="38.227" size="1.016" layer="21">GND</text>
+<text x="43.434" y="48.387" size="1.016" layer="21">12V</text>
+<text x="43.307" y="2.794" size="1.016" layer="21">5.2V</text>
+<text x="43.307" y="20.828" size="1.016" layer="21">3.3V</text>
+<text x="42.926" y="37.211" size="1.016" layer="21">GND</text>
+<text x="2.794" y="38.989" size="1.016" layer="21">GND</text>
 <text x="28.702" y="66.675" size="1.016" layer="21">GND</text>
 <text x="35.56" y="14.478" size="1.016" layer="21">3.3V</text>
 <text x="40.64" y="14.478" size="1.016" layer="21">5.2V</text>
@@ -311,24 +311,20 @@
 <library name="testpoints">
 <packages>
 <package name="3.3V_TESTPOINT">
-<pad name="3.3V" x="0" y="0" drill="3.81" diameter="5.461"/>
-<circle x="0" y="0" radius="2.8194" width="0.1524" layer="21"/>
-<rectangle x1="-0.1778" y1="-0.1778" x2="0.2032" y2="0.1778" layer="21"/>
+<pad name="3.3V" x="0" y="0" drill="2.54" diameter="3.81"/>
+<circle x="0" y="0" radius="2.54" width="0.1524" layer="21"/>
 </package>
 <package name="5.2V_TESTPOINT">
-<pad name="5.2V" x="0" y="0" drill="3.81" diameter="5.461"/>
-<circle x="0" y="0" radius="2.8194" width="0.127" layer="21"/>
-<rectangle x1="-0.1778" y1="-0.1778" x2="0.2032" y2="0.1778" layer="21"/>
+<pad name="5.2V" x="0" y="0" drill="2.54" diameter="3.81"/>
+<circle x="0" y="0" radius="2.54" width="0.127" layer="21"/>
 </package>
 <package name="12V_TESTPOINT">
-<pad name="12V" x="0" y="0" drill="3.81" diameter="5.461"/>
-<circle x="0" y="0" radius="2.8194" width="0.127" layer="21"/>
-<rectangle x1="-0.1778" y1="-0.1778" x2="0.2032" y2="0.1778" layer="21"/>
+<pad name="12V" x="0" y="0" drill="2.54" diameter="3.81"/>
+<circle x="0" y="0" radius="2.54" width="0.127" layer="21"/>
 </package>
 <package name="GND_TESTPOINT">
-<pad name="GND" x="0" y="0" drill="3.81" diameter="5.461"/>
-<circle x="0" y="0" radius="2.8194" width="0.1524" layer="21"/>
-<rectangle x1="-0.1778" y1="-0.1778" x2="0.2032" y2="0.1778" layer="21"/>
+<pad name="GND" x="0" y="0" drill="2.54" diameter="3.81"/>
+<circle x="0" y="0" radius="2.54" width="0.1524" layer="21"/>
 </package>
 </packages>
 </library>
@@ -1179,8 +1175,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="20.32" y="45.847"/>
 <vertex x="20.32" y="47.371"/>
 <vertex x="19.177" y="47.371"/>
-<vertex x="19.177" y="51.054"/>
-<vertex x="18.796" y="51.435"/>
+<vertex x="19.177" y="51.181"/>
+<vertex x="18.923" y="51.435"/>
 <vertex x="13.589" y="51.435"/>
 <vertex x="13.589" y="61.2775"/>
 <vertex x="7.493" y="67.3735"/>

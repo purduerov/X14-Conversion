@@ -451,24 +451,20 @@ DIN A3, landscape with location and doc. field</description>
 <library name="testpoints">
 <packages>
 <package name="3.3V_TESTPOINT">
-<pad name="3.3V" x="0" y="0" drill="3.81" diameter="5.461"/>
-<circle x="0" y="0" radius="2.8194" width="0.1524" layer="21"/>
-<rectangle x1="-0.1778" y1="-0.1778" x2="0.2032" y2="0.1778" layer="21"/>
+<pad name="3.3V" x="0" y="0" drill="2.54" diameter="3.81"/>
+<circle x="0" y="0" radius="2.54" width="0.1524" layer="21"/>
 </package>
 <package name="5.2V_TESTPOINT">
-<pad name="5.2V" x="0" y="0" drill="3.81" diameter="5.461"/>
-<circle x="0" y="0" radius="2.8194" width="0.127" layer="21"/>
-<rectangle x1="-0.1778" y1="-0.1778" x2="0.2032" y2="0.1778" layer="21"/>
+<pad name="5.2V" x="0" y="0" drill="2.54" diameter="3.81"/>
+<circle x="0" y="0" radius="2.54" width="0.127" layer="21"/>
 </package>
 <package name="12V_TESTPOINT">
-<pad name="12V" x="0" y="0" drill="3.81" diameter="5.461"/>
-<circle x="0" y="0" radius="2.8194" width="0.127" layer="21"/>
-<rectangle x1="-0.1778" y1="-0.1778" x2="0.2032" y2="0.1778" layer="21"/>
+<pad name="12V" x="0" y="0" drill="2.54" diameter="3.81"/>
+<circle x="0" y="0" radius="2.54" width="0.127" layer="21"/>
 </package>
 <package name="GND_TESTPOINT">
-<pad name="GND" x="0" y="0" drill="3.81" diameter="5.461"/>
-<circle x="0" y="0" radius="2.8194" width="0.1524" layer="21"/>
-<rectangle x1="-0.1778" y1="-0.1778" x2="0.2032" y2="0.1778" layer="21"/>
+<pad name="GND" x="0" y="0" drill="2.54" diameter="3.81"/>
+<circle x="0" y="0" radius="2.54" width="0.1524" layer="21"/>
 </package>
 </packages>
 <symbols>

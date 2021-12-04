@@ -184,11 +184,11 @@
 <text x="19.558" y="0.762" size="1.016" layer="25">5.2V</text>
 <text x="3.683" y="74.422" size="1.016" layer="25">12V</text>
 <text x="43.434" y="48.387" size="1.016" layer="21">12V</text>
-<text x="43.307" y="2.794" size="1.016" layer="21">5.2V</text>
-<text x="43.307" y="20.828" size="1.016" layer="21">3.3V</text>
+<text x="43.307" y="2.54" size="1.016" layer="21">5.2V</text>
+<text x="43.307" y="20.32" size="1.016" layer="21">3.3V</text>
 <text x="42.926" y="37.211" size="1.016" layer="21">GND</text>
-<text x="2.794" y="38.989" size="1.016" layer="21">GND</text>
-<text x="28.702" y="66.675" size="1.016" layer="21">GND</text>
+<text x="2.794" y="39.37" size="1.016" layer="21">GND</text>
+<text x="28.702" y="67.564" size="1.016" layer="21">GND</text>
 <text x="35.56" y="14.478" size="1.016" layer="21">3.3V</text>
 <text x="40.64" y="14.478" size="1.016" layer="21">5.2V</text>
 <text x="45.593" y="14.478" size="1.016" layer="21">GND</text>
@@ -624,52 +624,136 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <class number="0" name="default" width="0" drill="0">
 </class>
 </classes>
-<designrules name="jlcpcb-2layers">
-<description language="en">&lt;b&gt;JLCPCB design rules (2 layers)&lt;/b&gt;
-&lt;ul&gt;
-&lt;li&gt;Board thickness: 1.6mm&lt;/li&gt;
-&lt;li&gt;Copper weight: 1oz (35um)&lt;/li&gt;
-&lt;li&gt;Note: annular ring aren't minimal&lt;/li&gt;
-&lt;/ul&gt;</description>
+<designrules name="477">
+<description language="de">&lt;b&gt;EAGLE Design Rules&lt;/b&gt;
+&lt;p&gt;
+Die Standard-Design-Rules sind so gewählt, dass sie für 
+die meisten Anwendungen passen. Sollte ihre Platine 
+besondere Anforderungen haben, treffen Sie die erforderlichen
+Einstellungen hier und speichern die Design Rules unter 
+einem neuen Namen ab.</description>
+<description language="en">description[de] = &lt;b&gt;EAGLE Design Rules&lt;/b&gt;
+&lt;p&gt;
+Die Standard-Design-Rules sind so gewÃ¤hlt, dass sie fÃ¼r 
+die meisten Anwendungen passen. Sollte ihre Platine 
+besondere Anforderungen haben, treffen Sie die erforderlichen
+Einstellungen hier und speichern die Design Rules unter 
+einem neuen Namen ab.
+description[en] = &lt;b&gt;ECE 402/477 Design Rules Version 2&lt;/b&gt;
+&lt;p&gt;
+These are the design rules to use for Purdue University electrical and computer engineering senior design PCBs.
+&lt;/p&gt; 
+&lt;p&gt;
+Please make sure your boards conform to these design rules.
+&lt;/p&gt;
+
+layerSetup = (1*16)
+mtCopper = 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm
+mtIsolate = 1.5011mm 0.1499mm 0.2007mm 0.1499mm 0.2007mm 0.1499mm 0.2007mm 0.1499mm 0.2007mm 0.1499mm 0.2007mm 0.1499mm 0.2007mm 0.1499mm 0.2007mm
+mdWireWire = 8mil
+mdWirePad = 8mil
+mdWireVia = 8mil
+mdPadPad = 6mil
+mdPadVia = 8mil
+mdViaVia = 8mil
+mdSmdPad = 6mil
+mdSmdVia = 6mil
+mdSmdSmd = 6mil
+mdViaViaSameLayer = 8mil
+mnLayersViaInSmd = 2
+mdCopperDimension = 15mil
+mdDrill = 8mil
+mdSmdStop = 0mil
+msWidth = 8mil
+msDrill = 13mil
+msMicroVia = 13mil
+msBlindViaRatio = 0.500000
+rvPadTop = 0.250000
+rvPadInner = 0.250000
+rvPadBottom = 0.250000
+rvViaOuter = 0.250000
+rvViaInner = 0.250000
+rvMicroViaOuter = 0.250000
+rvMicroViaInner = 0.250000
+rlMinPadTop = 7mil
+rlMaxPadTop = 20mil
+rlMinPadInner = 7mil
+rlMaxPadInner = 20mil
+rlMinPadBottom = 7mil
+rlMaxPadBottom = 20mil
+rlMinViaOuter = 7mil
+rlMaxViaOuter = 20mil
+rlMinViaInner = 7mil
+rlMaxViaInner = 20mil
+rlMinMicroViaOuter = 4mil
+rlMaxMicroViaOuter = 20mil
+rlMinMicroViaInner = 4mil
+rlMaxMicroViaInner = 20mil
+psTop = -1
+psBottom = -1
+psFirst = -1
+psElongationLong = 100
+psElongationOffset = 100
+mvStopFrame = 1.000000
+mvCreamFrame = 0.000000
+mlMinStopFrame = 3mil
+mlMaxStopFrame = 3mil
+mlMinCreamFrame = 0mil
+mlMaxCreamFrame = 0mil
+mlViaStopLimit = 0mil
+srRoundness = 0.000000
+srMinRoundness = 0mil
+srMaxRoundness = 0mil
+slThermalIsolate = 10mil
+slThermalsForVias = 0
+dpMaxLengthDifference = 10mm
+dpGapFactor = 2.500000
+checkGrid = 0
+checkAngle = 0
+checkFont = 1
+checkRestrict = 1
+useDiameter = 13
+maxErrors = 50
+</description>
 <param name="layerSetup" value="(1*16)"/>
 <param name="mtCopper" value="0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm"/>
-<param name="mtIsolate" value="1.6mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm"/>
-<param name="mdWireWire" value="5mil"/>
-<param name="mdWirePad" value="5mil"/>
-<param name="mdWireVia" value="5mil"/>
-<param name="mdPadPad" value="5mil"/>
-<param name="mdPadVia" value="5mil"/>
-<param name="mdViaVia" value="5mil"/>
-<param name="mdSmdPad" value="5mil"/>
-<param name="mdSmdVia" value="5mil"/>
-<param name="mdSmdSmd" value="5mil"/>
+<param name="mtIsolate" value="1.5mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm"/>
+<param name="mdWireWire" value="6mil"/>
+<param name="mdWirePad" value="6mil"/>
+<param name="mdWireVia" value="6mil"/>
+<param name="mdPadPad" value="6mil"/>
+<param name="mdPadVia" value="6mil"/>
+<param name="mdViaVia" value="6mil"/>
+<param name="mdSmdPad" value="6mil"/>
+<param name="mdSmdVia" value="6mil"/>
+<param name="mdSmdSmd" value="6mil"/>
 <param name="mdViaViaSameLayer" value="6mil"/>
 <param name="mnLayersViaInSmd" value="2"/>
-<param name="mdCopperDimension" value="0.2mm"/>
+<param name="mdCopperDimension" value="40mil"/>
 <param name="mdDrill" value="6mil"/>
 <param name="mdSmdStop" value="0mil"/>
-<param name="msWidth" value="5mil"/>
-<param name="msDrill" value="0.3mm"/>
-<param name="msMicroVia" value="0.3mm"/>
+<param name="msWidth" value="6mil"/>
+<param name="msDrill" value="0.35mm"/>
+<param name="msMicroVia" value="9.99mm"/>
 <param name="msBlindViaRatio" value="0.5"/>
-<param name="rvPadTop" value="0.4"/>
-<param name="rvPadInner" value="0"/>
-<param name="rvPadBottom" value="0.4"/>
-<param name="rvViaOuter" value="0"/>
-<param name="rvViaInner" value="0"/>
-<param name="rvMicroViaOuter" value="0"/>
-<param name="rvMicroViaInner" value="0"/>
+<param name="rvPadTop" value="0.25"/>
+<param name="rvPadInner" value="0.25"/>
+<param name="rvPadBottom" value="0.25"/>
+<param name="rvViaOuter" value="0.25"/>
+<param name="rvViaInner" value="0.25"/>
+<param name="rvMicroViaOuter" value="0.25"/>
+<param name="rvMicroViaInner" value="0.25"/>
 <param name="rlMinPadTop" value="10mil"/>
-<param name="rlMaxPadTop" value="80mil"/>
+<param name="rlMaxPadTop" value="20mil"/>
 <param name="rlMinPadInner" value="10mil"/>
 <param name="rlMaxPadInner" value="20mil"/>
 <param name="rlMinPadBottom" value="10mil"/>
-<param name="rlMaxPadBottom" value="80mil"/>
-<param name="rlMinViaOuter" value="3mil"/>
+<param name="rlMaxPadBottom" value="20mil"/>
+<param name="rlMinViaOuter" value="8mil"/>
 <param name="rlMaxViaOuter" value="20mil"/>
 <param name="rlMinViaInner" value="8mil"/>
 <param name="rlMaxViaInner" value="20mil"/>
-<param name="rlMinMicroViaOuter" value="3mil"/>
+<param name="rlMinMicroViaOuter" value="4mil"/>
 <param name="rlMaxMicroViaOuter" value="20mil"/>
 <param name="rlMinMicroViaInner" value="4mil"/>
 <param name="rlMaxMicroViaInner" value="20mil"/>
@@ -818,11 +902,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="NAME" x="11.545259375" y="28.626959375" size="3.2051" layer="26" rot="MR270" display="off"/>
 <attribute name="VALUE" x="12.716790625" y="23.9527" size="0.3048" layer="27"/>
 </element>
-<element name="U$2" library="testpoints" package="3.3V_TESTPOINT" value="3.3V_TESTPOINT" x="44.577" y="24.638" smashed="yes"/>
-<element name="U$3" library="testpoints" package="5.2V_TESTPOINT" value="5.2V_TESTPOINT" x="44.577" y="6.604" smashed="yes"/>
+<element name="U$2" library="testpoints" package="3.3V_TESTPOINT" value="3.3V_TESTPOINT" x="44.577" y="24.13" smashed="yes"/>
+<element name="U$3" library="testpoints" package="5.2V_TESTPOINT" value="5.2V_TESTPOINT" x="44.577" y="6.35" smashed="yes"/>
 <element name="U$4" library="testpoints" package="12V_TESTPOINT" value="12V_TESTPOINT" x="44.577" y="52.197" smashed="yes"/>
 <element name="U$5" library="testpoints" package="GND_TESTPOINT" value="GND_TESTPOINT" x="30.353" y="71.374" smashed="yes"/>
-<element name="U$6" library="testpoints" package="GND_TESTPOINT" value="GND_TESTPOINT" x="4.445" y="42.799" smashed="yes"/>
+<element name="U$6" library="testpoints" package="GND_TESTPOINT" value="GND_TESTPOINT" x="4.445" y="43.18" smashed="yes"/>
 <element name="U$7" library="testpoints" package="GND_TESTPOINT" value="GND_TESTPOINT" x="44.577" y="41.021" smashed="yes"/>
 <element name="P1" library="ScrewPoints_282837-2" package="TE_282837-2" value="282837-2" x="6.858" y="6.223" smashed="yes">
 <attribute name="COMMENT" value="282837-2" x="6.858" y="6.223" size="1.778" layer="27" display="off"/>
@@ -896,8 +980,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="PROD_ID" value="CAP-00810" x="29.337" y="44.069" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="30.099" y="44.069" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center" display="off"/>
 </element>
-<element name="CONN" library="CONN, Distribution-Conversion (3)" package="TSW-105-05-G-S(C-D)" value="CONVERSION-DISTRIBUTION" x="42.037" y="37.338" smashed="yes" rot="MR0">
-<attribute name="NAME" x="34.417" y="18.415" size="0.3048" layer="25"/>
+<element name="CONN" library="CONN, Distribution-Conversion (3)" package="TSW-105-05-G-S(C-D)" value="CONVERSION-DISTRIBUTION" x="42.037" y="37.084" smashed="yes" rot="MR0">
+<attribute name="NAME" x="34.417" y="18.161" size="0.3048" layer="25"/>
 </element>
 <element name="U1" library="BUCK, LM2678S-ADJ" package="TO127P1435X464-8N" value="BUCK,LM2678S-ADJ" x="25.019" y="54.102" smashed="yes">
 <attribute name="DESCRIPTION" value=" 8V to 40V, 5A SIMPLE SWITCHER buck converter with high efficiency 7-DDPAK/TO-263 -40 to 125 " x="25.019" y="54.102" size="1.778" layer="27" display="off"/>
@@ -949,80 +1033,72 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </polygon>
 <contactref element="U1" pad="8"/>
 <contactref element="U1" pad="4"/>
-<via x="33.528" y="44.958" extent="1-16" drill="0.35"/>
-<via x="36.322" y="44.958" extent="1-16" drill="0.35"/>
-<via x="38.989" y="44.958" extent="1-16" drill="0.35"/>
-<via x="33.528" y="42.545" extent="1-16" drill="0.35"/>
-<via x="36.322" y="42.545" extent="1-16" drill="0.35"/>
-<via x="38.989" y="42.545" extent="1-16" drill="0.35"/>
-<via x="33.528" y="40.132" extent="1-16" drill="0.35"/>
-<via x="36.322" y="40.132" extent="1-16" drill="0.35"/>
-<via x="38.989" y="40.132" extent="1-16" drill="0.35"/>
-<via x="36.322" y="35.179" extent="1-16" drill="0.35"/>
-<via x="39.116" y="35.179" extent="1-16" drill="0.35"/>
-<via x="41.783" y="35.179" extent="1-16" drill="0.35"/>
-<via x="44.069" y="35.179" extent="1-16" drill="0.35"/>
-<via x="46.863" y="35.179" extent="1-16" drill="0.35"/>
-<via x="49.53" y="35.179" extent="1-16" drill="0.35"/>
-<via x="36.322" y="32.766" extent="1-16" drill="0.35"/>
-<via x="39.116" y="32.766" extent="1-16" drill="0.35"/>
-<via x="41.783" y="32.766" extent="1-16" drill="0.35"/>
-<via x="44.069" y="32.766" extent="1-16" drill="0.35"/>
-<via x="46.863" y="32.766" extent="1-16" drill="0.35"/>
-<via x="49.53" y="32.766" extent="1-16" drill="0.35"/>
-<via x="36.322" y="30.353" extent="1-16" drill="0.35"/>
-<via x="39.116" y="30.353" extent="1-16" drill="0.35"/>
-<via x="41.783" y="30.353" extent="1-16" drill="0.35"/>
-<via x="44.069" y="30.353" extent="1-16" drill="0.35"/>
-<via x="46.863" y="30.353" extent="1-16" drill="0.35"/>
-<via x="49.53" y="30.353" extent="1-16" drill="0.35"/>
-<via x="13.716" y="75.184" extent="1-16" drill="0.35"/>
-<via x="16.51" y="75.184" extent="1-16" drill="0.35"/>
-<via x="19.177" y="75.184" extent="1-16" drill="0.35"/>
-<via x="13.716" y="72.771" extent="1-16" drill="0.35"/>
-<via x="16.51" y="72.771" extent="1-16" drill="0.35"/>
-<via x="19.177" y="72.771" extent="1-16" drill="0.35"/>
-<via x="13.716" y="70.358" extent="1-16" drill="0.35"/>
-<via x="16.51" y="70.358" extent="1-16" drill="0.35"/>
-<via x="19.177" y="70.358" extent="1-16" drill="0.35"/>
-<via x="13.716" y="67.945" extent="1-16" drill="0.35"/>
-<via x="16.51" y="67.945" extent="1-16" drill="0.35"/>
-<via x="19.177" y="67.945" extent="1-16" drill="0.35"/>
-<via x="21.971" y="67.945" extent="1-16" drill="0.35"/>
-<via x="24.638" y="67.945" extent="1-16" drill="0.35"/>
-<via x="16.51" y="65.532" extent="1-16" drill="0.35"/>
-<via x="13.716" y="65.532" extent="1-16" drill="0.35"/>
-<via x="19.177" y="65.532" extent="1-16" drill="0.35"/>
-<via x="21.971" y="65.532" extent="1-16" drill="0.35"/>
-<via x="24.638" y="65.532" extent="1-16" drill="0.35"/>
-<via x="27.305" y="65.532" extent="1-16" drill="0.35"/>
-<via x="13.716" y="63.119" extent="1-16" drill="0.35"/>
-<via x="16.51" y="63.119" extent="1-16" drill="0.35"/>
-<via x="19.177" y="63.119" extent="1-16" drill="0.35"/>
-<via x="21.971" y="63.119" extent="1-16" drill="0.35"/>
-<via x="24.638" y="63.119" extent="1-16" drill="0.35"/>
-<via x="27.305" y="63.119" extent="1-16" drill="0.35"/>
-<via x="36.322" y="37.719" extent="1-16" drill="0.35"/>
-<via x="39.116" y="37.719" extent="1-16" drill="0.35"/>
-<via x="21.971" y="75.184" extent="1-16" drill="0.35"/>
-<via x="24.638" y="75.184" extent="1-16" drill="0.35"/>
-<via x="21.971" y="72.771" extent="1-16" drill="0.35"/>
-<via x="24.638" y="72.771" extent="1-16" drill="0.35"/>
-<via x="21.971" y="70.358" extent="1-16" drill="0.35"/>
-<via x="24.638" y="70.358" extent="1-16" drill="0.35"/>
-<via x="30.099" y="65.532" extent="1-16" drill="0.35"/>
-<via x="32.766" y="65.532" extent="1-16" drill="0.35"/>
-<via x="30.099" y="63.119" extent="1-16" drill="0.35"/>
-<via x="32.766" y="63.119" extent="1-16" drill="0.35"/>
-<via x="43.053" y="59.944" extent="1-16" drill="0.35"/>
-<via x="45.847" y="59.944" extent="1-16" drill="0.35"/>
-<via x="48.514" y="59.944" extent="1-16" drill="0.35"/>
-<via x="48.514" y="57.531" extent="1-16" drill="0.35"/>
-<wire x1="22.44" y1="44.069" x2="21.59" y2="43.219" width="0.3048" layer="1"/>
-<wire x1="21.209" y1="43.219" x2="21.59" y2="43.219" width="0.3048" layer="1"/>
-<wire x1="24.892" y1="43.219" x2="25.273" y2="43.219" width="0.3048" layer="1"/>
-<wire x1="24.892" y1="43.219" x2="24.042" y2="44.069" width="0.3048" layer="1"/>
-<wire x1="22.44" y1="44.069" x2="24.042" y2="44.069" width="0.3048" layer="1"/>
+<via x="34.417" y="44.704" extent="1-16" drill="0.35"/>
+<via x="37.211" y="44.704" extent="1-16" drill="0.35"/>
+<via x="39.878" y="44.704" extent="1-16" drill="0.35"/>
+<via x="34.417" y="42.291" extent="1-16" drill="0.35"/>
+<via x="37.211" y="42.291" extent="1-16" drill="0.35"/>
+<via x="39.878" y="42.291" extent="1-16" drill="0.35"/>
+<via x="34.417" y="39.878" extent="1-16" drill="0.35"/>
+<via x="37.211" y="39.878" extent="1-16" drill="0.35"/>
+<via x="39.878" y="39.878" extent="1-16" drill="0.35"/>
+<via x="37.211" y="34.925" extent="1-16" drill="0.35"/>
+<via x="40.005" y="34.925" extent="1-16" drill="0.35"/>
+<via x="42.672" y="34.925" extent="1-16" drill="0.35"/>
+<via x="44.958" y="34.925" extent="1-16" drill="0.35"/>
+<via x="47.752" y="34.925" extent="1-16" drill="0.35"/>
+<via x="37.211" y="32.512" extent="1-16" drill="0.35"/>
+<via x="40.005" y="32.512" extent="1-16" drill="0.35"/>
+<via x="42.672" y="32.512" extent="1-16" drill="0.35"/>
+<via x="44.958" y="32.512" extent="1-16" drill="0.35"/>
+<via x="47.752" y="32.512" extent="1-16" drill="0.35"/>
+<via x="37.211" y="30.099" extent="1-16" drill="0.35"/>
+<via x="40.005" y="30.099" extent="1-16" drill="0.35"/>
+<via x="42.672" y="30.099" extent="1-16" drill="0.35"/>
+<via x="44.958" y="30.099" extent="1-16" drill="0.35"/>
+<via x="47.752" y="30.099" extent="1-16" drill="0.35"/>
+<via x="14.478" y="73.787" extent="1-16" drill="0.35"/>
+<via x="17.272" y="73.787" extent="1-16" drill="0.35"/>
+<via x="19.939" y="73.787" extent="1-16" drill="0.35"/>
+<via x="14.478" y="71.374" extent="1-16" drill="0.35"/>
+<via x="17.272" y="71.374" extent="1-16" drill="0.35"/>
+<via x="19.939" y="71.374" extent="1-16" drill="0.35"/>
+<via x="14.478" y="68.961" extent="1-16" drill="0.35"/>
+<via x="17.272" y="68.961" extent="1-16" drill="0.35"/>
+<via x="19.939" y="68.961" extent="1-16" drill="0.35"/>
+<via x="22.733" y="68.961" extent="1-16" drill="0.35"/>
+<via x="25.4" y="68.961" extent="1-16" drill="0.35"/>
+<via x="17.272" y="66.548" extent="1-16" drill="0.35"/>
+<via x="14.478" y="66.548" extent="1-16" drill="0.35"/>
+<via x="19.939" y="66.548" extent="1-16" drill="0.35"/>
+<via x="22.733" y="66.548" extent="1-16" drill="0.35"/>
+<via x="25.4" y="66.548" extent="1-16" drill="0.35"/>
+<via x="28.067" y="66.548" extent="1-16" drill="0.35"/>
+<via x="14.478" y="64.135" extent="1-16" drill="0.35"/>
+<via x="17.272" y="64.135" extent="1-16" drill="0.35"/>
+<via x="19.939" y="64.135" extent="1-16" drill="0.35"/>
+<via x="22.733" y="64.135" extent="1-16" drill="0.35"/>
+<via x="25.4" y="64.135" extent="1-16" drill="0.35"/>
+<via x="28.067" y="64.135" extent="1-16" drill="0.35"/>
+<via x="37.211" y="37.465" extent="1-16" drill="0.35"/>
+<via x="40.005" y="37.465" extent="1-16" drill="0.35"/>
+<via x="22.733" y="73.787" extent="1-16" drill="0.35"/>
+<via x="25.4" y="73.787" extent="1-16" drill="0.35"/>
+<via x="22.733" y="71.374" extent="1-16" drill="0.35"/>
+<via x="25.4" y="71.374" extent="1-16" drill="0.35"/>
+<via x="30.861" y="66.548" extent="1-16" drill="0.35"/>
+<via x="33.528" y="66.548" extent="1-16" drill="0.35"/>
+<via x="30.861" y="64.135" extent="1-16" drill="0.35"/>
+<via x="33.528" y="64.135" extent="1-16" drill="0.35"/>
+<via x="48.26" y="59.563" extent="1-16" drill="0.35"/>
+<wire x1="22.44" y1="44.069" x2="21.59" y2="43.219" width="0.254" layer="1"/>
+<wire x1="21.209" y1="43.219" x2="21.59" y2="43.219" width="0.254" layer="1"/>
+<wire x1="24.892" y1="43.219" x2="25.273" y2="43.219" width="0.254" layer="1"/>
+<wire x1="24.892" y1="43.219" x2="24.042" y2="44.069" width="0.254" layer="1"/>
+<wire x1="22.44" y1="44.069" x2="24.042" y2="44.069" width="0.254" layer="1"/>
+<via x="45.847" y="59.563" extent="1-16" drill="0.35"/>
+<via x="43.307" y="59.563" extent="1-16" drill="0.35"/>
+<via x="48.26" y="57.404" extent="1-16" drill="0.35"/>
 </signal>
 <signal name="3.3V">
 <contactref element="AZ1117C" pad="2"/>
@@ -1045,8 +1121,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="0.127" y="10.287"/>
 <vertex x="6.858" y="10.287"/>
 <vertex x="6.858" y="0.127"/>
-<vertex x="11.938" y="0.127"/>
-<vertex x="12.065" y="0.254"/>
+<vertex x="12.065" y="0.127"/>
 <vertex x="12.065" y="10.414"/>
 </polygon>
 <polygon width="0.1524" layer="16" isolate="0.3048">
@@ -1108,57 +1183,56 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="24.1808" y="42.3418"/>
 <vertex x="26.797" y="42.3418"/>
 </polygon>
-<via x="26.035" y="13.589" extent="1-16" drill="0.35"/>
-<via x="28.829" y="13.589" extent="1-16" drill="0.35"/>
-<via x="31.496" y="13.589" extent="1-16" drill="0.35"/>
-<via x="33.909" y="13.589" extent="1-16" drill="0.35"/>
-<via x="36.703" y="13.589" extent="1-16" drill="0.35"/>
-<via x="39.37" y="13.589" extent="1-16" drill="0.35"/>
-<via x="26.035" y="11.176" extent="1-16" drill="0.35"/>
-<via x="28.829" y="11.176" extent="1-16" drill="0.35"/>
-<via x="31.496" y="11.176" extent="1-16" drill="0.35"/>
-<via x="33.909" y="11.176" extent="1-16" drill="0.35"/>
-<via x="36.703" y="11.176" extent="1-16" drill="0.35"/>
-<via x="39.37" y="11.176" extent="1-16" drill="0.35"/>
-<via x="26.035" y="8.763" extent="1-16" drill="0.35"/>
-<via x="28.829" y="8.763" extent="1-16" drill="0.35"/>
-<via x="31.496" y="8.763" extent="1-16" drill="0.35"/>
-<via x="33.909" y="8.763" extent="1-16" drill="0.35"/>
-<via x="36.703" y="8.763" extent="1-16" drill="0.35"/>
-<via x="39.37" y="8.763" extent="1-16" drill="0.35"/>
-<via x="26.035" y="6.223" extent="1-16" drill="0.35"/>
-<via x="28.829" y="6.223" extent="1-16" drill="0.35"/>
-<via x="31.496" y="6.223" extent="1-16" drill="0.35"/>
-<via x="33.909" y="6.223" extent="1-16" drill="0.35"/>
-<via x="36.703" y="6.223" extent="1-16" drill="0.35"/>
-<via x="39.37" y="6.223" extent="1-16" drill="0.35"/>
-<via x="26.035" y="3.81" extent="1-16" drill="0.35"/>
-<via x="28.829" y="3.81" extent="1-16" drill="0.35"/>
-<via x="31.496" y="3.81" extent="1-16" drill="0.35"/>
-<via x="33.909" y="3.81" extent="1-16" drill="0.35"/>
-<via x="36.703" y="3.81" extent="1-16" drill="0.35"/>
-<via x="39.37" y="3.81" extent="1-16" drill="0.35"/>
-<via x="26.035" y="1.397" extent="1-16" drill="0.35"/>
-<via x="28.829" y="1.397" extent="1-16" drill="0.35"/>
-<via x="31.496" y="1.397" extent="1-16" drill="0.35"/>
-<via x="33.909" y="1.397" extent="1-16" drill="0.35"/>
-<via x="36.703" y="1.397" extent="1-16" drill="0.35"/>
-<via x="39.37" y="1.397" extent="1-16" drill="0.35"/>
-<via x="20.828" y="15.875" extent="1-16" drill="0.35"/>
-<via x="23.622" y="15.875" extent="1-16" drill="0.35"/>
-<via x="26.289" y="15.875" extent="1-16" drill="0.35"/>
-<via x="28.702" y="15.875" extent="1-16" drill="0.35"/>
-<via x="31.496" y="15.875" extent="1-16" drill="0.35"/>
-<via x="20.828" y="13.589" extent="1-16" drill="0.35"/>
-<via x="23.622" y="13.589" extent="1-16" drill="0.35"/>
-<via x="42.164" y="13.589" extent="1-16" drill="0.35"/>
-<via x="44.958" y="13.589" extent="1-16" drill="0.35"/>
-<via x="47.625" y="13.589" extent="1-16" drill="0.35"/>
-<via x="42.164" y="11.176" extent="1-16" drill="0.35"/>
-<via x="44.958" y="11.176" extent="1-16" drill="0.35"/>
-<via x="47.625" y="11.176" extent="1-16" drill="0.35"/>
-<wire x1="20.828" y1="15.875" x2="20.2184" y2="16.4846" width="0.508" layer="16"/>
-<wire x1="20.2184" y1="19.3946" x2="20.2184" y2="16.4846" width="0.508" layer="16"/>
+<via x="26.543" y="12.7" extent="1-16" drill="0.35"/>
+<via x="29.337" y="12.7" extent="1-16" drill="0.35"/>
+<via x="32.004" y="12.7" extent="1-16" drill="0.35"/>
+<via x="34.417" y="12.7" extent="1-16" drill="0.35"/>
+<via x="37.211" y="12.7" extent="1-16" drill="0.35"/>
+<via x="39.878" y="12.7" extent="1-16" drill="0.35"/>
+<via x="26.543" y="10.287" extent="1-16" drill="0.35"/>
+<via x="29.337" y="10.287" extent="1-16" drill="0.35"/>
+<via x="32.004" y="10.287" extent="1-16" drill="0.35"/>
+<via x="34.417" y="10.287" extent="1-16" drill="0.35"/>
+<via x="37.211" y="10.287" extent="1-16" drill="0.35"/>
+<via x="39.878" y="10.287" extent="1-16" drill="0.35"/>
+<via x="26.543" y="7.874" extent="1-16" drill="0.35"/>
+<via x="29.337" y="7.874" extent="1-16" drill="0.35"/>
+<via x="32.004" y="7.874" extent="1-16" drill="0.35"/>
+<via x="34.417" y="7.874" extent="1-16" drill="0.35"/>
+<via x="37.211" y="7.874" extent="1-16" drill="0.35"/>
+<via x="39.878" y="7.874" extent="1-16" drill="0.35"/>
+<via x="26.543" y="5.334" extent="1-16" drill="0.35"/>
+<via x="29.337" y="5.334" extent="1-16" drill="0.35"/>
+<via x="32.004" y="5.334" extent="1-16" drill="0.35"/>
+<via x="34.417" y="5.334" extent="1-16" drill="0.35"/>
+<via x="37.211" y="5.334" extent="1-16" drill="0.35"/>
+<via x="39.878" y="5.334" extent="1-16" drill="0.35"/>
+<via x="26.543" y="2.921" extent="1-16" drill="0.35"/>
+<via x="29.337" y="2.921" extent="1-16" drill="0.35"/>
+<via x="32.004" y="2.921" extent="1-16" drill="0.35"/>
+<via x="34.417" y="2.921" extent="1-16" drill="0.35"/>
+<via x="37.211" y="2.921" extent="1-16" drill="0.35"/>
+<via x="39.878" y="2.921" extent="1-16" drill="0.35"/>
+<via x="21.336" y="14.986" extent="1-16" drill="0.35"/>
+<via x="24.13" y="14.986" extent="1-16" drill="0.35"/>
+<via x="26.543" y="14.986" extent="1-16" drill="0.35"/>
+<via x="29.337" y="14.986" extent="1-16" drill="0.35"/>
+<via x="32.004" y="14.986" extent="1-16" drill="0.35"/>
+<via x="21.336" y="12.7" extent="1-16" drill="0.35"/>
+<via x="24.13" y="12.7" extent="1-16" drill="0.35"/>
+<via x="42.672" y="12.7" extent="1-16" drill="0.35"/>
+<via x="45.466" y="12.7" extent="1-16" drill="0.35"/>
+<via x="48.133" y="12.7" extent="1-16" drill="0.35"/>
+<via x="42.672" y="10.287" extent="1-16" drill="0.35"/>
+<via x="45.466" y="10.287" extent="1-16" drill="0.35"/>
+<via x="48.133" y="10.287" extent="1-16" drill="0.35"/>
+<wire x1="21.336" y1="14.986" x2="20.2184" y2="16.1036" width="0.508" layer="16"/>
+<wire x1="20.2184" y1="19.3946" x2="20.2184" y2="16.1036" width="0.508" layer="16"/>
+<via x="21.336" y="17.145" extent="1-16" drill="0.35"/>
+<via x="24.13" y="17.145" extent="1-16" drill="0.35"/>
+<via x="26.543" y="17.145" extent="1-16" drill="0.35"/>
+<via x="29.337" y="17.145" extent="1-16" drill="0.35"/>
+<via x="32.004" y="17.145" extent="1-16" drill="0.35"/>
 </signal>
 <signal name="12V">
 <contactref element="U$4" pad="12V"/>
@@ -1171,14 +1245,14 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="22.479" y1="46.5954" x2="21.209" y2="45.3254" width="0.508" layer="1"/>
 <wire x1="21.209" y1="45.3254" x2="21.209" y2="44.919" width="0.508" layer="1"/>
 <wire x1="22.479" y1="46.5954" x2="22.479" y2="47.912" width="0.508" layer="1"/>
-<polygon width="0.1524" layer="1">
+<polygon width="0.1524" layer="1" isolate="0.3048">
 <vertex x="20.32" y="45.847"/>
 <vertex x="20.32" y="47.371"/>
 <vertex x="19.177" y="47.371"/>
 <vertex x="19.177" y="51.181"/>
 <vertex x="18.923" y="51.435"/>
-<vertex x="13.589" y="51.435"/>
-<vertex x="13.589" y="61.2775"/>
+<vertex x="13.462" y="51.435"/>
+<vertex x="13.462" y="61.4045"/>
 <vertex x="7.493" y="67.3735"/>
 <vertex x="7.493" y="76.073"/>
 <vertex x="0.127" y="76.073"/>
@@ -1188,13 +1262,13 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="21.717" y="44.323"/>
 <vertex x="21.717" y="45.847"/>
 </polygon>
-<polygon width="0.1524" layer="1">
+<polygon width="0.1524" layer="1" isolate="0.3048">
 <vertex x="30.607" y="61.6077"/>
 <vertex x="35.433" y="61.6077"/>
 <vertex x="35.433" y="60.833"/>
 <vertex x="41.783" y="60.833"/>
-<vertex x="41.783" y="56.134"/>
-<vertex x="50.673" y="56.134"/>
+<vertex x="41.783" y="55.88"/>
+<vertex x="50.673" y="55.88"/>
 <vertex x="50.673" y="46.5836"/>
 <vertex x="29.591" y="46.5836"/>
 <vertex x="29.591" y="49.6316"/>

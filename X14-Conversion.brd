@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="5" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="1" altunitdist="mil" altunit="mil"/>
+<grid distance="5" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -187,7 +187,7 @@
 <text x="43.307" y="1.778" size="1.016" layer="21">5.2V</text>
 <text x="43.18" y="19.939" size="1.016" layer="21">3.3V</text>
 <text x="42.926" y="36.322" size="1.016" layer="21">GND</text>
-<text x="2.921" y="38.481" size="1.016" layer="21">GND</text>
+<text x="2.921" y="38.227" size="1.016" layer="21">GND</text>
 <text x="28.702" y="66.675" size="1.016" layer="21">GND</text>
 <text x="35.56" y="14.478" size="1.016" layer="21">3.3V</text>
 <text x="40.64" y="14.478" size="1.016" layer="21">5.2V</text>
@@ -826,7 +826,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <element name="U$3" library="testpoints" package="5.2V_TESTPOINT" value="5.2V_TESTPOINT" x="44.577" y="6.604" smashed="yes"/>
 <element name="U$4" library="testpoints" package="12V_TESTPOINT" value="12V_TESTPOINT" x="44.577" y="52.197" smashed="yes"/>
 <element name="U$5" library="testpoints" package="GND_TESTPOINT" value="GND_TESTPOINT" x="30.353" y="71.374" smashed="yes"/>
-<element name="U$6" library="testpoints" package="GND_TESTPOINT" value="GND_TESTPOINT" x="4.445" y="43.053" smashed="yes"/>
+<element name="U$6" library="testpoints" package="GND_TESTPOINT" value="GND_TESTPOINT" x="4.445" y="42.799" smashed="yes"/>
 <element name="U$7" library="testpoints" package="GND_TESTPOINT" value="GND_TESTPOINT" x="44.577" y="41.021" smashed="yes"/>
 <element name="P1" library="ScrewPoints_282837-2" package="TE_282837-2" value="282837-2" x="6.858" y="6.223" smashed="yes">
 <attribute name="COMMENT" value="282837-2" x="6.858" y="6.223" size="1.778" layer="27" display="off"/>
@@ -1054,16 +1054,16 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="12.065" y="10.414"/>
 </polygon>
 <polygon width="0.1524" layer="16" isolate="0.3048">
-<vertex x="21.59" y="20.066"/>
-<vertex x="22.479" y="20.066"/>
+<vertex x="21.463" y="20.193"/>
+<vertex x="22.606" y="20.193"/>
 <vertex x="31.115" y="28.702"/>
 <vertex x="50.673" y="28.702"/>
-<vertex x="50.673" y="19.05"/>
-<vertex x="39.3446" y="19.05"/>
+<vertex x="50.673" y="18.7452"/>
+<vertex x="39.3446" y="18.7452"/>
 <vertex x="39.3446" y="15.748"/>
 <vertex x="34.417" y="15.748"/>
-<vertex x="34.417" y="19.05"/>
-<vertex x="21.59" y="19.05"/>
+<vertex x="34.417" y="18.7452"/>
+<vertex x="21.463" y="18.7452"/>
 </polygon>
 </signal>
 <signal name="5.2V">
@@ -1081,13 +1081,13 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="20.2184" y1="19.3946" x2="17.7904" y2="19.3946" width="0.508" layer="16"/>
 <polygon width="0.1524" layer="16" isolate="0.3048">
 <vertex x="19.431" y="18.288"/>
-<vertex x="33.655" y="18.288"/>
-<vertex x="33.655" y="15.113"/>
-<vertex x="39.8018" y="15.113"/>
+<vertex x="33.9598" y="18.288"/>
+<vertex x="33.9598" y="15.2908"/>
+<vertex x="39.8018" y="15.2908"/>
 <vertex x="39.8018" y="18.288"/>
 <vertex x="44.3992" y="18.288"/>
-<vertex x="44.3992" y="15.113"/>
-<vertex x="50.673" y="15.113"/>
+<vertex x="44.3992" y="15.2908"/>
+<vertex x="50.673" y="15.2908"/>
 <vertex x="50.673" y="0.127"/>
 <vertex x="18.288" y="0.127"/>
 <vertex x="18.288" y="17.145"/>
@@ -1095,22 +1095,22 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <polygon width="0.1524" layer="1" isolate="0.3048">
 <vertex x="26.797" y="43.815"/>
 <vertex x="30.861" y="43.815"/>
-<vertex x="30.861" y="32.258"/>
-<vertex x="28.067" y="32.258"/>
-<vertex x="28.067" y="18.288"/>
-<vertex x="33.655" y="18.288"/>
-<vertex x="33.655" y="15.113"/>
-<vertex x="39.8018" y="15.113"/>
+<vertex x="30.861" y="32.385"/>
+<vertex x="27.94" y="32.385"/>
+<vertex x="27.94" y="18.288"/>
+<vertex x="33.9598" y="18.288"/>
+<vertex x="33.9598" y="15.2908"/>
+<vertex x="39.8018" y="15.2908"/>
 <vertex x="39.8018" y="18.288"/>
 <vertex x="44.3992" y="18.288"/>
-<vertex x="44.3992" y="15.113"/>
-<vertex x="50.673" y="15.113"/>
+<vertex x="44.3992" y="15.2908"/>
+<vertex x="50.673" y="15.2908"/>
 <vertex x="50.673" y="0.127"/>
 <vertex x="18.288" y="0.127"/>
 <vertex x="18.288" y="40.64"/>
 <vertex x="22.479" y="40.64"/>
-<vertex x="24.13" y="42.291"/>
-<vertex x="26.797" y="42.291"/>
+<vertex x="24.1808" y="42.3418"/>
+<vertex x="26.797" y="42.3418"/>
 </polygon>
 <via x="26.035" y="13.589" extent="1-16" drill="0.35"/>
 <via x="28.829" y="13.589" extent="1-16" drill="0.35"/>
@@ -1172,40 +1172,41 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <contactref element="CONN" pad="2"/>
 <contactref element="CONN" pad="1"/>
 <contactref element="U1" pad="2"/>
-<wire x1="22.479" y1="46.443" x2="21.209" y2="45.173" width="0.508" layer="1"/>
-<wire x1="21.209" y1="44.919" x2="21.209" y2="45.173" width="0.508" layer="1"/>
-<wire x1="22.479" y1="46.443" x2="22.479" y2="47.912" width="0.508" layer="1"/>
-<polygon width="0.1524" layer="1" isolate="0.3048">
-<vertex x="21.971" y="46.482"/>
-<vertex x="21.971" y="54.61"/>
-<vertex x="30.607" y="54.61"/>
-<vertex x="30.607" y="60.833"/>
-<vertex x="41.783" y="60.833"/>
-<vertex x="41.783" y="56.134"/>
-<vertex x="50.673" y="56.134"/>
-<vertex x="50.673" y="46.482"/>
-<vertex x="29.591" y="46.482"/>
-<vertex x="29.591" y="49.53"/>
-<vertex x="22.987" y="49.53"/>
-<vertex x="22.987" y="46.482"/>
-</polygon>
+<wire x1="22.479" y1="46.5954" x2="21.209" y2="45.3254" width="0.508" layer="1"/>
+<wire x1="21.209" y1="45.3254" x2="21.209" y2="44.919" width="0.508" layer="1"/>
+<wire x1="22.479" y1="46.5954" x2="22.479" y2="47.912" width="0.508" layer="1"/>
 <polygon width="0.1524" layer="1">
-<vertex x="20.574" y="45.466"/>
-<vertex x="20.32" y="45.72"/>
+<vertex x="20.32" y="45.847"/>
 <vertex x="20.32" y="47.371"/>
 <vertex x="19.177" y="47.371"/>
 <vertex x="19.177" y="51.054"/>
 <vertex x="18.796" y="51.435"/>
 <vertex x="13.589" y="51.435"/>
-<vertex x="13.589" y="59.436"/>
-<vertex x="7.493" y="65.532"/>
+<vertex x="13.589" y="61.2775"/>
+<vertex x="7.493" y="67.3735"/>
 <vertex x="7.493" y="76.073"/>
 <vertex x="0.127" y="76.073"/>
 <vertex x="0.127" y="47.117"/>
 <vertex x="13.843" y="47.117"/>
 <vertex x="16.637" y="44.323"/>
 <vertex x="21.717" y="44.323"/>
-<vertex x="21.717" y="45.466"/>
+<vertex x="21.717" y="45.847"/>
+</polygon>
+<polygon width="0.1524" layer="1">
+<vertex x="30.607" y="61.6077"/>
+<vertex x="35.433" y="61.6077"/>
+<vertex x="35.433" y="60.833"/>
+<vertex x="41.783" y="60.833"/>
+<vertex x="41.783" y="56.134"/>
+<vertex x="50.673" y="56.134"/>
+<vertex x="50.673" y="46.5836"/>
+<vertex x="29.591" y="46.5836"/>
+<vertex x="29.591" y="49.6316"/>
+<vertex x="22.987" y="49.6316"/>
+<vertex x="22.987" y="46.482"/>
+<vertex x="21.971" y="46.482"/>
+<vertex x="21.971" y="54.61"/>
+<vertex x="30.607" y="54.61"/>
 </polygon>
 </signal>
 <signal name="N$2">
@@ -1232,9 +1233,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <signal name="N$4">
 <contactref element="CB" pad="1"/>
 <contactref element="U1" pad="3"/>
-<wire x1="23.749" y1="46.443" x2="23.241" y2="45.935" width="0.508" layer="1"/>
-<wire x1="23.241" y1="44.919" x2="23.241" y2="45.935" width="0.508" layer="1"/>
-<wire x1="23.749" y1="46.443" x2="23.749" y2="47.912" width="0.508" layer="1"/>
+<wire x1="23.749" y1="45.427" x2="23.241" y2="44.919" width="0.508" layer="1"/>
+<wire x1="23.749" y1="45.427" x2="23.749" y2="47.912" width="0.508" layer="1"/>
 </signal>
 <signal name="N$5">
 <contactref element="RFB1" pad="1"/>
@@ -1243,6 +1243,15 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="25.273" y1="44.919" x2="27.305" y2="44.919" width="0.508" layer="1"/>
 <wire x1="27.305" y1="44.919" x2="27.559" y2="45.173" width="0.508" layer="1"/>
 <wire x1="27.559" y1="45.173" x2="27.559" y2="47.912" width="0.508" layer="1"/>
+</signal>
+<signal name="CUTOUT">
+<polygon width="0.00635" layer="1" pour="cutout">
+<vertex x="25.908" y="44.45"/>
+<vertex x="26.67" y="44.45"/>
+<vertex x="26.67" y="42.672"/>
+<vertex x="26.67" y="42.545"/>
+<vertex x="25.908" y="42.545"/>
+</polygon>
 </signal>
 </signals>
 <mfgpreviewcolors>

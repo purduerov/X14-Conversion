@@ -305,7 +305,7 @@
 <connects>
 <connect gate="G$1" pin="GND" pad="1"/>
 <connect gate="G$1" pin="INPUT" pad="3"/>
-<connect gate="G$1" pin="OUTPUT" pad="2 4"/>
+<connect gate="G$1" pin="OUTPUT" pad="2 4" route="any"/>
 </connects>
 <technologies>
 <technology name=""/>

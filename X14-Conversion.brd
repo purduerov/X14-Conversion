@@ -184,7 +184,7 @@
 <text x="19.558" y="0.762" size="1.016" layer="25">5.2V</text>
 <text x="3.683" y="74.422" size="1.016" layer="25">12V</text>
 <text x="43.434" y="49.022" size="1.016" layer="21">12V</text>
-<text x="43.307" y="2.54" size="1.016" layer="21">5.2V</text>
+<text x="43.307" y="4.826" size="1.016" layer="21">5.2V</text>
 <text x="43.307" y="20.32" size="1.016" layer="21">3.3V</text>
 <text x="42.926" y="39.751" size="1.016" layer="21">GND</text>
 <text x="2.794" y="39.37" size="1.016" layer="21">GND</text>
@@ -194,8 +194,6 @@
 <text x="45.593" y="14.478" size="1.016" layer="21">GND</text>
 <text x="38.227" y="59.182" size="1.016" layer="21">12V</text>
 <text x="43.053" y="59.182" size="1.016" layer="21">GND</text>
-<wire x1="47.8282" y1="28.2829" x2="47.8663" y2="28.2829" width="0.3048" layer="22"/>
-<wire x1="47.8663" y1="28.2829" x2="47.8663" y2="51.9303" width="0.3048" layer="22"/>
 <wire x1="47.584359375" y1="5.361940625" x2="47.58563125" y2="5.36066875" width="0.254" layer="21"/>
 </plain>
 <libraries>
@@ -859,7 +857,7 @@ maxErrors = 50
 <attribute name="VALUE" x="10.778209375" y="23.7993" size="0.3048" layer="27" rot="R180"/>
 </element>
 <element name="U$2" library="testpoints" package="3.3V_TESTPOINT" value="3.3V_TESTPOINT" x="44.577" y="24.13" smashed="yes"/>
-<element name="U$3" library="testpoints" package="5.2V_TESTPOINT" value="5.2V_TESTPOINT" x="44.577" y="6.35" smashed="yes"/>
+<element name="U$3" library="testpoints" package="5.2V_TESTPOINT" value="5.2V_TESTPOINT" x="44.577" y="8.636" smashed="yes"/>
 <element name="U$4" library="testpoints" package="12V_TESTPOINT" value="12V_TESTPOINT" x="44.577" y="52.832" smashed="yes"/>
 <element name="U$5" library="testpoints" package="GND_TESTPOINT" value="GND_TESTPOINT" x="30.353" y="71.628" smashed="yes"/>
 <element name="U$6" library="testpoints" package="GND_TESTPOINT" value="GND_TESTPOINT" x="4.445" y="43.18" smashed="yes"/>
@@ -1108,19 +1106,19 @@ maxErrors = 50
 <vertex x="42.0624" y="18.415"/>
 <vertex x="42.0624" y="15.2908"/>
 <vertex x="47.585628125" y="15.2908"/>
-<vertex x="47.585628125" y="2.159"/>
-<vertex x="18.288" y="2.159"/>
+<vertex x="47.585628125" y="3.302"/>
+<vertex x="18.288" y="3.302"/>
 <vertex x="18.288" y="16.256"/>
 </polygon>
-<via x="29.083" y="12.827" extent="1-16" drill="0.6"/>
-<via x="33.782" y="12.827" extent="1-16" drill="0.6"/>
-<via x="38.227" y="12.827" extent="1-16" drill="0.6"/>
-<via x="29.083" y="8.382" extent="1-16" drill="0.6"/>
-<via x="33.782" y="8.382" extent="1-16" drill="0.6"/>
-<via x="38.227" y="8.382" extent="1-16" drill="0.6"/>
-<via x="29.083" y="3.683" extent="1-16" drill="0.6"/>
-<via x="33.782" y="3.683" extent="1-16" drill="0.6"/>
-<via x="38.227" y="3.683" extent="1-16" drill="0.6"/>
+<via x="29.083" y="13.716" extent="1-16" drill="0.6"/>
+<via x="33.782" y="13.716" extent="1-16" drill="0.6"/>
+<via x="38.227" y="13.716" extent="1-16" drill="0.6"/>
+<via x="29.083" y="9.271" extent="1-16" drill="0.6"/>
+<via x="33.782" y="9.271" extent="1-16" drill="0.6"/>
+<via x="38.227" y="9.271" extent="1-16" drill="0.6"/>
+<via x="29.083" y="4.572" extent="1-16" drill="0.6"/>
+<via x="33.782" y="4.572" extent="1-16" drill="0.6"/>
+<via x="38.227" y="4.572" extent="1-16" drill="0.6"/>
 <contactref element="COUT1" pad="+"/>
 <contactref element="COUT2" pad="+"/>
 <contactref element="COUT3" pad="+"/>
@@ -1136,8 +1134,8 @@ maxErrors = 50
 <vertex x="11.8364" y="40.513"/>
 <vertex x="11.8364" y="28.14828125"/>
 <vertex x="18.288" y="28.14828125"/>
-<vertex x="18.288" y="2.159"/>
-<vertex x="47.58563125" y="2.159"/>
+<vertex x="18.288" y="3.302"/>
+<vertex x="47.58563125" y="3.302"/>
 <vertex x="47.58563125" y="15.2908"/>
 <vertex x="42.0624" y="15.2908"/>
 <vertex x="42.0624" y="18.415"/>
@@ -1175,8 +1173,8 @@ maxErrors = 50
 <vertex x="18.66265" y="64.0461"/>
 <vertex x="8.8519" y="64.0461"/>
 <vertex x="7.493" y="65.405"/>
-<vertex x="7.493" y="73.914"/>
-<vertex x="2.413" y="73.914"/>
+<vertex x="7.493" y="72.771"/>
+<vertex x="2.413" y="72.771"/>
 <vertex x="2.413" y="63.119"/>
 <vertex x="7.747" y="57.785"/>
 <vertex x="12.319" y="57.785"/>
@@ -1198,8 +1196,8 @@ maxErrors = 50
 <vertex x="18.66265" y="64.0461"/>
 <vertex x="8.8519" y="64.0461"/>
 <vertex x="7.493" y="65.405"/>
-<vertex x="7.493" y="73.914"/>
-<vertex x="2.413" y="73.914"/>
+<vertex x="7.493" y="72.771"/>
+<vertex x="2.413" y="72.771"/>
 <vertex x="2.413" y="63.119"/>
 <vertex x="7.747" y="57.785"/>
 <vertex x="12.319" y="57.785"/>
@@ -1210,7 +1208,7 @@ maxErrors = 50
 <contactref element="CB" pad="2"/>
 <contactref element="D1" pad="1"/>
 <contactref element="U1" pad="1"/>
-<wire x1="22.6919" y1="44.9169" x2="23.114" y2="45.339" width="0.762" layer="1"/>
+<wire x1="22.641096875" y1="44.866096875" x2="23.114" y2="45.339" width="0.762" layer="1"/>
 <wire x1="23.114" y1="45.339" x2="23.114" y2="46.14" width="0.762" layer="1"/>
 <polygon width="0.254" layer="1" isolate="0.3048">
 <vertex x="11.8364" y="51.6636"/>
@@ -1221,8 +1219,8 @@ maxErrors = 50
 <vertex x="18.415" y="41.021"/>
 <vertex x="11.8364" y="41.021"/>
 </polygon>
-<wire x1="14.986" y1="43.446" x2="16.4569" y2="44.9169" width="0.762" layer="1"/>
-<wire x1="16.4569" y1="44.9169" x2="22.6919" y2="44.9169" width="0.762" layer="1"/>
+<wire x1="14.986" y1="43.446" x2="16.406096875" y2="44.866096875" width="0.762" layer="1"/>
+<wire x1="16.406096875" y1="44.866096875" x2="22.641096875" y2="44.866096875" width="0.762" layer="1"/>
 <wire x1="17.045" y1="49.211" x2="18.3114" y2="50.4774" width="0.762" layer="1"/>
 <wire x1="20.5486" y1="50.4774" x2="18.3114" y2="50.4774" width="0.762" layer="1"/>
 <wire x1="20.5486" y1="50.4774" x2="20.574" y2="50.452" width="0.762" layer="1"/>

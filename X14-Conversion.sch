@@ -1731,6 +1731,11 @@ Warning: This is the KIT version of the AXIAL-0.3 package. This package has a sm
 <text x="-109.22" y="2.54" size="3.81" layer="95">Linear Regulator 5.2V - 3.3V</text>
 <text x="-10.16" y="15.24" size="3.81" layer="95">Test Points</text>
 <text x="139.7" y="12.7" size="3.81" layer="95">Screw Terminals</text>
+<text x="139.7" y="91.44" size="2.54" layer="91">Fb Resistors Calculation: 
+Vout = 5.2V; Vfb = 1.21V; Rfb1 = 1kΩ 
+Vout = Vfb * ( 1 + Rfb2 / Rfb1) 
+Rfb2 = Rfb1 * (Vout / Vfb - 1) 
+Rfb2 = ~3.298kΩ = 3.32kΩ</text>
 </plain>
 <instances>
 <instance part="L1" gate="G$1" x="44.45" y="83.566" smashed="yes">
@@ -2076,6 +2081,10 @@ Warning: This is the KIT version of the AXIAL-0.3 package. This package has a sm
 </schematic>
 </drawing>
 <compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
 <note version="8.2" severity="warning">
 Since Version 8.2, EAGLE supports online libraries. The ids
 of those online libraries will not be understood (or retained)

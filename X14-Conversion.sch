@@ -365,20 +365,20 @@ DIN A3, landscape with location and doc. field</description>
 <library name="testpoints">
 <packages>
 <package name="3.3V_TESTPOINT">
-<pad name="3.3V" x="0" y="0" drill="2.54" diameter="3.81"/>
-<circle x="0" y="0" radius="2.54" width="0.1524" layer="21"/>
+<pad name="3.3V" x="0" y="0" drill="4.572" diameter="6.35"/>
+<circle x="0" y="0" radius="3.302" width="0.1524" layer="21"/>
 </package>
 <package name="5.2V_TESTPOINT">
-<pad name="5.2V" x="0" y="0" drill="2.54" diameter="3.81"/>
-<circle x="0" y="0" radius="2.54" width="0.127" layer="21"/>
+<pad name="5.2V" x="0" y="0" drill="4.572" diameter="6.35"/>
+<circle x="0" y="0" radius="3.302" width="0.127" layer="21"/>
 </package>
 <package name="12V_TESTPOINT">
-<pad name="12V" x="0" y="0" drill="2.54" diameter="3.81"/>
-<circle x="0" y="0" radius="2.54" width="0.127" layer="21"/>
+<pad name="12V" x="0" y="0" drill="4.572" diameter="6.35"/>
+<circle x="0" y="0" radius="3.302" width="0.127" layer="21"/>
 </package>
 <package name="GND_TESTPOINT">
-<pad name="GND" x="0" y="0" drill="2.54" diameter="3.81"/>
-<circle x="0" y="0" radius="2.54" width="0.1524" layer="21"/>
+<pad name="GND" x="0" y="0" drill="4.572" diameter="6.35"/>
+<circle x="0" y="0" radius="3.302" width="0.1524" layer="21"/>
 </package>
 </packages>
 <symbols>
@@ -460,71 +460,6 @@ DIN A3, landscape with location and doc. field</description>
 </connects>
 <technologies>
 <technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
-<library name="ScrewPoints_282837-2">
-<packages>
-<package name="TE_282837-2">
-<wire x1="-5.08" y1="4.1" x2="5.08" y2="4.1" width="0.127" layer="21"/>
-<wire x1="5.08" y1="4.1" x2="5.08" y2="-3.1" width="0.127" layer="21"/>
-<wire x1="5.08" y1="-3.1" x2="5.08" y2="-4.1" width="0.127" layer="21"/>
-<wire x1="5.08" y1="-4.1" x2="-5.08" y2="-4.1" width="0.127" layer="21"/>
-<wire x1="-5.08" y1="-4.1" x2="-5.08" y2="-3.1" width="0.127" layer="21"/>
-<wire x1="-5.08" y1="-3.1" x2="-5.08" y2="4.1" width="0.127" layer="21"/>
-<wire x1="-5.33" y1="4.35" x2="5.33" y2="4.35" width="0.05" layer="39"/>
-<wire x1="5.33" y1="4.35" x2="5.33" y2="-4.35" width="0.05" layer="39"/>
-<wire x1="5.33" y1="-4.35" x2="-5.33" y2="-4.35" width="0.05" layer="39"/>
-<wire x1="-5.33" y1="-4.35" x2="-5.33" y2="4.35" width="0.05" layer="39"/>
-<text x="-4.30873125" y="4.97865" size="1.272590625" layer="25">&gt;NAME</text>
-<text x="-4.311240625" y="-6.484090625" size="1.27331875" layer="27">&gt;VALUE</text>
-<wire x1="-5.08" y1="4.1" x2="5.08" y2="4.1" width="0.127" layer="51"/>
-<wire x1="5.08" y1="4.1" x2="5.08" y2="-4.1" width="0.127" layer="51"/>
-<wire x1="5.08" y1="-4.1" x2="-5.08" y2="-4.1" width="0.127" layer="51"/>
-<wire x1="-5.08" y1="-4.1" x2="-5.08" y2="4.1" width="0.127" layer="51"/>
-<circle x="-2.54" y="-1.27" radius="0.1" width="0.2" layer="51"/>
-<wire x1="-5.08" y1="-3.1" x2="5.08" y2="-3.1" width="0.127" layer="21"/>
-<pad name="1" x="-2.54" y="0" drill="1.1" shape="square"/>
-<pad name="2" x="2.54" y="0" drill="1.1"/>
-</package>
-</packages>
-<symbols>
-<symbol name="282837-2">
-<wire x1="-2.54" y1="2.54" x2="-2.54" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="-5.08" x2="2.54" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="2.54" y1="-5.08" x2="2.54" y2="2.54" width="0.254" layer="94"/>
-<wire x1="2.54" y1="2.54" x2="-2.54" y2="2.54" width="0.254" layer="94"/>
-<text x="-2.540559375" y="2.54381875" size="1.271909375" layer="95">&gt;NAME</text>
-<text x="-2.54236875" y="-6.374509375" size="1.274909375" layer="96">&gt;VALUE</text>
-<pin name="1" x="-7.62" y="0" length="middle" direction="pas"/>
-<pin name="2" x="-7.62" y="-2.54" length="middle" direction="pas"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="282837-2" prefix="P">
-<description>TERM BLOCK 5.08MM 2POS SIDE ENTY </description>
-<gates>
-<gate name="G$1" symbol="282837-2" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="TE_282837-2">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="COMMENT" value="282837-2"/>
-<attribute name="DESCRIPTION" value=" Connector Terminal Blocks Receptacle 2 Position 5.08mm Solder Straight Thru-Hole 13.5A/Contact "/>
-<attribute name="DIGI-KEY_PART_NUMBER" value="A113320-ND"/>
-<attribute name="MF" value="TE Connectivity"/>
-<attribute name="MP" value="282837-2"/>
-<attribute name="PACKAGE" value="None"/>
-<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/282837-2/?ref=eda"/>
-</technology>
 </technologies>
 </device>
 </devices>
@@ -1704,9 +1639,6 @@ Warning: This is the KIT version of the AXIAL-0.3 package. This package has a sm
 <part name="U$5" library="testpoints" deviceset="GND_TESTPOINT" device=""/>
 <part name="U$6" library="testpoints" deviceset="GND_TESTPOINT" device=""/>
 <part name="U$7" library="testpoints" deviceset="GND_TESTPOINT" device=""/>
-<part name="P1" library="ScrewPoints_282837-2" deviceset="282837-2" device=""/>
-<part name="P2" library="ScrewPoints_282837-2" deviceset="282837-2" device=""/>
-<part name="P3" library="ScrewPoints_282837-2" deviceset="282837-2" device=""/>
 <part name="RFB2" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="3.3KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:39650/1" value="3.32kΩ"/>
 <part name="RFB1" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="1KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:39650/1" value="1kΩ"/>
 <part name="CB" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="10NF" device="-0603-50V-10%" package3d_urn="urn:adsk.eagle:package:37414/1" value="10NF-0603-50V-10%"/>
@@ -1730,7 +1662,6 @@ Warning: This is the KIT version of the AXIAL-0.3 package. This package has a sm
 <text x="40.64" y="12.7" size="3.81" layer="95">Connectors to Power Distribution</text>
 <text x="-109.22" y="2.54" size="3.81" layer="95">Linear Regulator 5.2V - 3.3V</text>
 <text x="-10.16" y="15.24" size="3.81" layer="95">Test Points</text>
-<text x="139.7" y="12.7" size="3.81" layer="95">Screw Terminals</text>
 <text x="139.7" y="91.44" size="2.54" layer="91">Fb Resistors Calculation: 
 Vout = 5.2V; Vfb = 1.21V; Rfb1 = 1kΩ 
 Vout = Vfb * ( 1 + Rfb2 / Rfb1) 
@@ -1754,18 +1685,6 @@ Rfb2 = ~3.298kΩ = 3.32kΩ</text>
 <instance part="U$5" gate="G$1" x="-7.62" y="-25.4" smashed="yes"/>
 <instance part="U$6" gate="G$1" x="-7.62" y="-35.56" smashed="yes"/>
 <instance part="U$7" gate="G$1" x="-7.62" y="-45.72" smashed="yes"/>
-<instance part="P1" gate="G$1" x="142.24" y="2.54" smashed="yes" rot="R180">
-<attribute name="NAME" x="144.780559375" y="-0.00381875" size="1.271909375" layer="95" rot="R180"/>
-<attribute name="VALUE" x="144.78236875" y="8.914509375" size="1.274909375" layer="96" rot="R180"/>
-</instance>
-<instance part="P2" gate="G$1" x="142.24" y="-10.16" smashed="yes" rot="R180">
-<attribute name="NAME" x="144.780559375" y="-12.70381875" size="1.271909375" layer="95" rot="R180"/>
-<attribute name="VALUE" x="144.78236875" y="-3.785490625" size="1.274909375" layer="96" rot="R180"/>
-</instance>
-<instance part="P3" gate="G$1" x="142.24" y="-22.86" smashed="yes" rot="R180">
-<attribute name="NAME" x="144.780559375" y="-25.40381875" size="1.271909375" layer="95" rot="R180"/>
-<attribute name="VALUE" x="144.78236875" y="-16.485490625" size="1.274909375" layer="96" rot="R180"/>
-</instance>
 <instance part="RFB2" gate="G$1" x="43.434" y="96.266" smashed="yes">
 <attribute name="NAME" x="43.434" y="97.79" size="1.27" layer="95" align="bottom-center"/>
 <attribute name="VALUE" x="43.434" y="94.742" size="0.8128" layer="96" align="top-center"/>
@@ -1898,24 +1817,6 @@ Rfb2 = ~3.298kΩ = 3.32kΩ</text>
 <label x="7.62" y="-45.72" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="P2" gate="G$1" pin="1"/>
-<wire x1="149.86" y1="-10.16" x2="149.86" y2="-12.7" width="0.1524" layer="91"/>
-<wire x1="149.86" y1="-12.7" x2="162.56" y2="-12.7" width="0.1524" layer="91"/>
-<label x="162.56" y="-12.7" size="1.778" layer="95" xref="yes"/>
-</segment>
-<segment>
-<pinref part="P3" gate="G$1" pin="1"/>
-<wire x1="149.86" y1="-22.86" x2="149.86" y2="-25.4" width="0.1524" layer="91"/>
-<wire x1="149.86" y1="-25.4" x2="162.56" y2="-25.4" width="0.1524" layer="91"/>
-<label x="162.56" y="-25.4" size="1.778" layer="95" xref="yes"/>
-</segment>
-<segment>
-<wire x1="149.86" y1="0" x2="162.56" y2="0" width="0.1524" layer="91"/>
-<label x="162.56" y="0" size="1.778" layer="95" xref="yes"/>
-<pinref part="P1" gate="G$1" pin="1"/>
-<wire x1="149.86" y1="0" x2="149.86" y2="2.54" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="CONN" gate="G$1" pin="VIN-"/>
 <wire x1="63.5" y1="-2.54" x2="53.34" y2="-2.54" width="0.1524" layer="91"/>
 <label x="53.34" y="-2.54" size="1.778" layer="95" rot="R180" xref="yes"/>
@@ -1940,12 +1841,6 @@ Rfb2 = ~3.298kΩ = 3.32kΩ</text>
 <pinref part="U$2" gate="G$1" pin="3.3V"/>
 <wire x1="-2.54" y1="5.08" x2="7.62" y2="5.08" width="0.1524" layer="91"/>
 <label x="7.62" y="5.08" size="1.778" layer="95" xref="yes"/>
-</segment>
-<segment>
-<pinref part="P1" gate="G$1" pin="2"/>
-<wire x1="149.86" y1="5.08" x2="149.86" y2="7.62" width="0.1524" layer="91"/>
-<wire x1="149.86" y1="7.62" x2="162.56" y2="7.62" width="0.1524" layer="91"/>
-<label x="162.56" y="7.62" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="CONN" gate="G$1" pin="VOUT+_3"/>
@@ -1995,12 +1890,6 @@ Rfb2 = ~3.298kΩ = 3.32kΩ</text>
 <label x="7.62" y="-5.08" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="149.86" y1="-5.08" x2="162.56" y2="-5.08" width="0.1524" layer="91"/>
-<label x="162.56" y="-5.08" size="1.778" layer="95" xref="yes"/>
-<pinref part="P2" gate="G$1" pin="2"/>
-<wire x1="149.86" y1="-7.62" x2="149.86" y2="-5.08" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="CONN" gate="G$1" pin="VOUT+_5"/>
 <wire x1="93.98" y1="2.54" x2="104.14" y2="2.54" width="0.1524" layer="91"/>
 <label x="104.14" y="2.54" size="1.778" layer="95" xref="yes"/>
@@ -2024,12 +1913,6 @@ Rfb2 = ~3.298kΩ = 3.32kΩ</text>
 <pinref part="U$4" gate="G$1" pin="12V"/>
 <wire x1="-2.54" y1="-15.24" x2="7.62" y2="-15.24" width="0.1524" layer="91"/>
 <label x="7.62" y="-15.24" size="1.778" layer="95" xref="yes"/>
-</segment>
-<segment>
-<wire x1="149.86" y1="-17.78" x2="162.56" y2="-17.78" width="0.1524" layer="91"/>
-<label x="162.56" y="-17.78" size="1.778" layer="95" xref="yes"/>
-<pinref part="P3" gate="G$1" pin="2"/>
-<wire x1="149.86" y1="-17.78" x2="149.86" y2="-20.32" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="CONN" gate="G$1" pin="VIN+"/>

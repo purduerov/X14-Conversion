@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.6.2">
+<eagle version="9.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -192,7 +192,7 @@
 Minh Nguyen
 Erin Park
 Read Hedl
-1/7/2022
+3/14/2022
 </text>
 <text x="2.794" y="25.908" size="1.27" layer="21" rot="R90">GND</text>
 <text x="2.794" y="35.56" size="1.27" layer="21" rot="R90">3.3V</text>

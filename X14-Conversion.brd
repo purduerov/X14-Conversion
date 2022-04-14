@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.0">
+<eagle version="9.6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -188,7 +188,7 @@
 <text x="43.307" y="11.176" size="1.016" layer="21">GND</text>
 <text x="35.179" y="47.244" size="1.016" layer="21">12V</text>
 <text x="40.767" y="47.244" size="1.016" layer="21">GND</text>
-<text x="9.906" y="57.785" size="1.016" layer="25">X14 Power Conversion v2
+<text x="1.524" y="58.039" size="1.016" layer="25">X14 Power Conversion v2
 Minh Nguyen
 Erin Park
 Read Hedl
